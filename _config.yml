@@ -10,4 +10,9 @@ highlighter: pygments
 markdown:    kramdown
 permalink:   pretty
 # END
-exclude: [LICENSE, README.markdown, Rakefile]
+exclude:
+  - LICENSE
+  - README.markdown
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
