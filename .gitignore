@@ -1,7 +1,8 @@
 server
 serve
 _site
+.bundle
+vendor
 /.DS_Store
 *.sublime-project
-
 *.sublime-workspace
