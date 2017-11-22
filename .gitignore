@@ -3,6 +3,7 @@ serve
 _site
 .bundle
 vendor
+.jekyll-metadata
 /.DS_Store
 *.sublime-project
 *.sublime-workspace

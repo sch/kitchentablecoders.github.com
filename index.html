@@ -1,82 +1,27 @@
 ---
-layout: home
-title: _layouts
-description: this is where your meta description for top page.
+layout: main
+title: Kitchen Table Coders
+description: Kitchen Table Coders hosts intermediate and advanced workshops teaching programming concepts.
 ---
 
-<div id="nav">
-     <ul>
-         <li><a href="/about/">About</a></li>
-         <li ><a href="/courses">Courses</a></li>
-         <li><a href="/events/">Events</a></li>
-         <li><a href="mailto:hello@kitchentablecoders.com">Contact</a></li>
-     </ul>
+<div class="navigation vcard" vocab="http://schema.org/" typeof="organization">
+  <div class="navigation-title" property="name">Kitchen Table Coders</div>
+
+  <address property="address" typeof="PostalAddress">
+    <div property="streetAddress">274 Morgan Avenue<br>4th Floor</div>
+    <div><span property="addressLocality">Brooklyn</span> <abbr title="New York" property="addressRegion">NY</abbr> <span property="postalCode">11211</span></div>
+  </address>
 </div>
 
-
-<!-- h1 id="upcoming">All upcoming workshops</h1-->
-<ul class="posts">
-    {% for post in site.posts %}
-    {% if post.categories contains "class" or post.categories contains "event" and post.upcoming %}
-    <li class="article-link">
-        <date title="{{ post.date | date_to_xmlschema }}">
-            <span class="day-of-week">{{ post.date | date: '%A' }}</span>
-            <span class="month">{{ post.date | date: '%B' }}</span>
-            <span class="day">{{ post.date | date: '%d' }}</span>,
-            <span>@ Brooklyn, NY</span>
-        </date>
-        <div>
-            <a href="{{ post.url }}" class="h3">{{ post.title }}</a>
-        </div>
-        <p class="summary">
-            {{ post.summary }}
-        </p>
-    </li>
-    {% endif %}
-    {% endfor %}
-</ul>
-
-<div class="border"></div>
-<div id="previous" class="post-link">
-    <a href="/previous/">See our previous workshops</a>
-    <div class="caption">You can also ask us do redo them, and we'll do our best!</div>
-</div>
-
-<div id="previous" class="post-link">
-    <a href="/calendar/">View the full calendar</a>
-    <div class="caption">Check out the full listing of everything going on at KTC.</div>
-</div>
-
-<div id="suggest" class="post-link">
-    <div class="linkimg">
-        <div class="link">
-            <a href="mailto:hello@kitchentablecoders.com?subject=Suggestion for a class">Suggest a new workshop</a>
-        </div>
-        <img src="/img/mail.jpg"></img>
-    </div>
-    <div class="caption">Let us know what you'd like to learn. We often pick up on great suggestions</div>
-</div>
-
-<!-- Begin MailChimp Signup Form -->
-<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-    #mc_embed_signup{
-        background:#fff; clear:left; font:24px Helvetica,Arial,sans-serif;
-        float: left;
-        margin-left: 33px;
-        color:#FF8352;
-    }
-</style>
-<div id="mc_embed_signup" class="post-link">
-<form style="width:300px;" action="http://kitchentablecoders.us2.list-manage1.com/subscribe/post?u=d2be45cc6d8340144e5d07fe4&amp;id=e671f205eb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-    <label for="mce-EMAIL" class="link">Subscribe to our mailing list</label>
-    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
-
-<div id="chiclet" style="margin-top: 90px;">
-    <script type="text/javascript" language="JavaScript" src="http://kitchentablecoders.us2.list-manage1.com/subscriber-count?b=36&u=cb7e5992-eda5-412c-850d-1af9bbc84c05&id=e671f205eb"></script>
+<div class="main">
+  <div class="container">
+    <p>Kitchen Table Coders is a collective of creative technologists. We host small workshops focusing on intermediate to advanced topics in programming. We'd love it if you could attend one. Here's the next workshop we're holding:</p>
+    <section class="card">
+      <a class="button signup-button" href="#">Sign Up</a>
+      <h1>Machine Learning</h1>
+      <div class="byline">with <a href="#">Kovas Boguta</a> and <a href="#">Evan Casey</a></div>
+      <p>Machine learning is the science of getting computers to act without being explicitly programmed. In the past decade, machine learning has given us self-driving cars, practical speech recognition, effective web search, and a vastly improved understanding of the human genome.</p>
+      <p>Machine learning is so pervasive today that you probably use it dozens of times a day without knowing it. Many researchers also think it is the best way to make progress towards human-level AI. In this class, you will learn about the most effective machine learning techniques, and gain practice implementing them and getting them to work for yourself. More importantly, you'll learn about not only the theoretical underpinnings of learning, but also gain the practical know-how needed to quickly and powerfully apply these techniques to new problems. Finally, you'll learn about some of Silicon Valley's best practices in innovation as it pertains to machine learning and AI.</p>
+    </section>
+  </div>
 </div>

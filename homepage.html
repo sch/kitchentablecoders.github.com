@@ -1,0 +1,82 @@
+---
+layout: home
+title: _layouts
+description: this is where your meta description for top page.
+---
+
+<div id="nav">
+     <ul>
+         <li><a href="/about/">About</a></li>
+         <li ><a href="/courses">Courses</a></li>
+         <li><a href="/events/">Events</a></li>
+         <li><a href="mailto:hello@kitchentablecoders.com">Contact</a></li>
+     </ul>
+</div>
+
+
+<!-- h1 id="upcoming">All upcoming workshops</h1-->
+<ul class="posts">
+    {% for post in site.posts %}
+    {% if post.categories contains "class" or post.categories contains "event" and post.upcoming %}
+    <li class="article-link">
+        <date title="{{ post.date | date_to_xmlschema }}">
+            <span class="day-of-week">{{ post.date | date: '%A' }}</span>
+            <span class="month">{{ post.date | date: '%B' }}</span>
+            <span class="day">{{ post.date | date: '%d' }}</span>,
+            <span>@ Brooklyn, NY</span>
+        </date>
+        <div>
+            <a href="{{ post.url }}" class="h3">{{ post.title }}</a>
+        </div>
+        <p class="summary">
+            {{ post.summary }}
+        </p>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+<div class="border"></div>
+<div id="previous" class="post-link">
+    <a href="/previous/">See our previous workshops</a>
+    <div class="caption">You can also ask us do redo them, and we'll do our best!</div>
+</div>
+
+<div id="previous" class="post-link">
+    <a href="/calendar/">View the full calendar</a>
+    <div class="caption">Check out the full listing of everything going on at KTC.</div>
+</div>
+
+<div id="suggest" class="post-link">
+    <div class="linkimg">
+        <div class="link">
+            <a href="mailto:hello@kitchentablecoders.com?subject=Suggestion for a class">Suggest a new workshop</a>
+        </div>
+        <img src="/img/mail.jpg"></img>
+    </div>
+    <div class="caption">Let us know what you'd like to learn. We often pick up on great suggestions</div>
+</div>
+
+<!-- Begin MailChimp Signup Form -->
+<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    #mc_embed_signup{
+        background:#fff; clear:left; font:24px Helvetica,Arial,sans-serif;
+        float: left;
+        margin-left: 33px;
+        color:#FF8352;
+    }
+</style>
+<div id="mc_embed_signup" class="post-link">
+<form style="width:300px;" action="http://kitchentablecoders.us2.list-manage1.com/subscribe/post?u=d2be45cc6d8340144e5d07fe4&amp;id=e671f205eb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+    <label for="mce-EMAIL" class="link">Subscribe to our mailing list</label>
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+<div id="chiclet" style="margin-top: 90px;">
+    <script type="text/javascript" language="JavaScript" src="http://kitchentablecoders.us2.list-manage1.com/subscriber-count?b=36&u=cb7e5992-eda5-412c-850d-1af9bbc84c05&id=e671f205eb"></script>
+</div>
