@@ -25,8 +25,13 @@ body {
   }
 }
 
+.flex-1 {
+  flex: 1;
+}
+
 .navigation {
   display: flex;
+  justify-content: space-between;
   background-color: #222;
   color: white;
   padding: 20px;
@@ -52,8 +57,18 @@ body {
 }
 
 .navigation-title {
-  flex: 1;
   margin-bottom: 40px;
+}
+
+.navigation-link {
+  display: block;
+  color: #AAA;
+  text-decoration: underline;
+  padding: 0.25em 0;
+
+  &:hover {
+    color: inherit;
+  }
 }
 
 .main {
