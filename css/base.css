@@ -1,0 +1,304 @@
+#page {
+    position: absolute;
+    width: 800px;
+    left: 50%;
+    margin-left: -400px;
+}
+/* clearfix
+----------------------------------------------------------------------------------------------------*/
+.clearfix:after,
+.grid:after,
+.hasGrid:after,
+.the_header:after,
+#main:after,
+#main .article_inner:after,
+.the_footer:after {
+	clear:both;
+	display:block;
+	visibility:hidden;
+	overflow:hidden;
+	height:0 !important;
+	line-height:0;
+	font-size:xx-large;
+	content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}
+.clearfix,
+.grid,
+.hasGrid,
+.the_header,
+#main,
+#main .article_inner,
+.the_footer { zoom: 1; } /* IE6-7 */
+/* typography
+-------------------------------------------------------- */
+body {
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
+	font-size: 100%;
+	line-height: 1.5; 
+}
+/* Headings
+-------------------------------------------------------- */
+h1, h2, h3, h4, h5,h6 {
+	font-weight: bold;
+	text-shadow: 0px 1px 0px #fff;
+}
+h1, .h1 { 
+	font-size:2em;
+	line-height: 1.5;
+	margin: 0.75em 0;
+}
+h2, .h2 {
+	font-size:1.75em;
+	line-height: 1.7143;
+	margin: 0.8571em 0;
+}
+h3, .h3 {
+	font-size:1.5em;
+	line-height: 1;
+	margin: 1em 0;
+}
+h4, .h4 {
+	font-size: 1.3125em;
+	line-height: 1.1429;
+	margin: 1.1429em 0;
+}
+h5, .h5 {
+	font-size:1.1688em;
+	font-size: 1.125em;
+	line-height: 1.3333;
+	margin: 1.3333em 0;
+}
+h6, .h6 {
+	font-size:1em;
+	line-height: 1.5;
+	margin: 1.5em 0;
+}
+/* LINK
+-------------------------------------------------------- */
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+/* P UL OL DL, IMG
+-------------------------------------------------------- */
+p, ul, ol, dl, img {
+	font-size: 1.0625em;
+	line-height: 1.4118;
+	margin: 0 0 1.4118em 0;
+}
+/* ALL THE TRIMMINGS
+-------------------------------------------------------- */
+blockquote {
+	font-size: 0.875em;
+	line-height: 1.714286;
+	font-style: italic;
+	font-weight: bold;
+}
+blockquote cite { font-weight: normal; }
+strong { font-weight: bold; }
+em { font-weight: bold; }
+.amp {
+	font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif; /* Give those ampersands a right sexy look */
+	font-style: italic;
+	font-weight: normal;
+	line-height: inherit;
+}
+
+/* Logo img */
+#logo-img-container {
+    margin-top: 0px; 
+    text-align: center;
+    height: 100px;
+}
+
+/* Site Wide Navigation */
+
+#nav ul {
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+}
+#nav ul li {
+    float: left;
+    font-size: 30px;
+    width: 142px;
+    text-align: center;
+    list-style: none;
+}
+#nav ul li.selected {
+    color: red;
+}
+#ktc-est {
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    color: red;
+}
+#nav ul li a {
+    text-decoration: none;
+    padding-bottom: 6px;
+    color: black;
+}
+#nav ul li a:visited {
+    color: black;
+}
+#nav ul li.selected a,
+#nav ul li.selected a:visited {
+    color: red;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Main */
+
+#main {
+    clear: both;
+}
+
+/* About columns */
+
+#cols {
+    width: 100%;
+    margin-top: 40px;
+}
+
+#cols div {
+    padding: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 50%;
+}
+
+#cols div p font {
+    color: red;
+    padding-right: 10px;
+}
+
+#cols div p {
+    font-size: 18px;
+    line-height: 1.2em;
+    padding-left: 20px;
+}
+
+#cols #left {
+    float: left;
+}
+
+#cols #right {
+    float: right;
+}
+
+/* About */
+
+#studio-img-container {
+    float: left;
+    margin-top: 40px;
+    text-align: center;
+    clear: both;
+}
+#studio-img-container img {
+    border: 1px #ccc solid;
+    padding: 2px;
+}
+
+/* Courses */
+
+#upcoming {
+    margin-left: 40px;
+    font-size: 28px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #606060;
+}
+
+.the_article h1 {
+    font-size: 28px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #FF8352;
+}
+
+.main_inner header.hd_article h1 {
+    font-size: 28px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #606060;
+}
+
+.the_article .leftcol {
+    float: left;
+    width: 380px;
+}
+
+.the_article .rightcol {
+    float: right;
+    width: 120px;
+    padding-top: 30px;
+    text-align: right;
+}
+
+.the_article .content {
+    font-size: 14px;
+    color: #606060;
+}
+
+#register {
+    border: none;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #393;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    padding: 6px 20px;
+    font-weight: bold;
+}
+
+#fee-list {
+    margin-top: 30px;
+}
+
+#corporate {
+    margin-top: 30px;
+}
+
+#class-date {
+    margin-top: 20px;
+}
+#class-instructor {
+    margin-bottom: 10px;
+    margin-top: -10px;
+    color: #FF8352;
+}
+
+#ask {
+    margin-left: 70px;
+}
+
+.hd_article {
+    position: relative;
+}
+
+#back {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+#main.announce .the_article h1 {
+    margin: 0;
+}
+
+#main.announce .leftcol {
+    width: auto;
+}
+
+#main.announce .rightcol {
+    display: none;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="google-site-verification" content="GOOGLEWEBMASTER">
+	<!--link  href="http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT:regular,italic&v1" rel="stylesheet" type="text/css" -->
+	<link  href="http://fonts.googleapis.com/css?family=Quattrocento:regular&v1" rel="stylesheet" type="text/css" >
+
+	<link href="http://kitchentablecoders.github.comatom.xml" rel="alternate" title="Kitchen Table Coders | Workshops on the craft of creative coding in all its forms" type="application/atom+xml">
+	<link rel="stylesheet" media="all" href="/css/master.css">
+	<link rel="stylesheet" media="all" href="/css/mediaqueries.css">
+	<script src="/js/modernizr.js"></script>
+	
+		<title>Server-Side Video Editing | Kitchen Table Coders | Workshops on the craft of creative coding in all its forms</title>
+		<meta name="description" content="While there have been some great projects that use browser-based real-time graphics teqhniques combined with video sharing APIs to create interactive, video-driven experiences, the results...">
+	
+    <meta name="viewport" content="width=550, initial-scale=0.4">
+</head>
+
+<body class="post">
+    <div id="page">
+        <header id="head">
+    <div class="head_inner">
+        <div id="logo-img-container">
+            <a href="/" style="border:none;"><img src="/img/ktc-logo.png" class="kcimg"></img></a>
+        </div>
+        <ul>
+            <!--li class="logo"><a href="/">Kitchen Table Coders</a></li-->
+        </BR>
+            <li class="tagline">Workshops on the craft of creative coding in all its forms</li>
+        </ul>
+    </div>
+</header><!-- id="head" -->
+
+        <div id="main" role="main">
+            <div class="main_inner">
+                <div class="article_inner">
+                    <div id="nav">
+                        <ul>
+                            <li><a href="/about/">About</a></li>
+                            <li class="selected"><a href="/">Courses</a></li>
+                            <li><a href="/events/">Events</a></li>
+                            <li><a href="mailto:hello@kitchentablecoders.com">Contact</a></li>
+                        </ul>
+                    </div>
+                    <header class="hd_article" style="margin-left:-40px">
+                        
+                        <h1 class="isupcoming">
+                            A previous workshop
+                        </h1>
+                        
+                        <div id="back">
+                            <a href="/">back</a>
+                        </div>
+                    </header>
+                    <article class="the_article" style="margin-left:-40px;">
+                        <div class="article_inner" style="padding-right: 20px;">
+                            <div class="leftcol" style="width: 380px;">
+                                <h1>Server-Side Video Editing</h1>
+                                
+                                
+                                <div id="class-instructor">
+                                with Jeff Crouse
+                                </div>
+                                
+
+                                <div class="content"><p>While there have been some great projects that use browser-based
+real-time graphics teqhniques combined with video sharing APIs to
+create interactive, video-driven experiences, the results of these
+types of projects are usually fleeting. What if you want to allow
+users to create a custom, shareable, downloadable video artifact that
+draws from the huge world of source audio and video out there on the
+web?  In this workshop, we will explore a suite of tools that can be
+used to create a server-side video editing platform that can churn out
+customized video files based on logic that we provide. I like to call
+this process “procedural video editing”, and while it’s nowhere near
+as sophisticated as a tool like FinalCut, it is very powerful
+nonetheless.</p>
+
+<p>###Agenda</p>
+
+<ol>
+  <li>First, we will look at a program called
+<a href="https://github.com/rg3/youtube-dl">youtube-dl</a> that will allow us
+to gather video content from sites like YouTube, Vimeo, and many
+more.</li>
+  <li>Once we have acquired our source content, we will need to massage
+the format of the videos. To do this, we will use the legendary
+command line video workhorse: <a href="http://www.ffmpeg.org/">ffmpeg</a></li>
+  <li>We will use <a href="http://www.mltframework.org/">MLT framework</a> (“melt”)
+to edit the videos together</li>
+  <li>To automate the process, we will use Python (specifically,
+<a href="http://docs.python.org/2/library/subprocess.html">the Subprocess module</a>). If
+you wish to use another scripting language, that’s fine - the
+language itself is not important to the main techniques. However, I
+will be providing some sample code in Python.</li>
+  <li>We will talk generally about how to install on a server so that it
+is accessable on the web</li>
+</ol>
+
+<p>There will be an optional (free) work session on the 28th (the next
+day) where participants may come back to the studio to work on their
+projects and get help from Jeff.</p>
+
+<p>###Techniques/Sample Code</p>
+
+<ul>
+  <li>Get video info (ffprobe)</li>
+  <li>Crossfading (mlt)</li>
+  <li>Video overlays (ffmpeg)</li>
+  <li>Watermarking (ffmpeg)</li>
+  <li>Find video based on keyword (Youtube)</li>
+  <li>Find news video (Archive.org)</li>
+  <li>Generating video clips from Google Streetview (“<a href="http://hyperlapse.tllabs.io/">Hyperlapse</a>”)</li>
+  <li>Using <a href="http://developer.echonest.com/docs/v4/">EchoNest
+API</a> to edit a video to the beat of a song</li>
+  <li>Generate title sequence using <a href="http://www.pythonware.com/products/pil/">Python Imaging
+Library</a></li>
+  <li>Incorporating <a href="https://github.com/grampajoe/Autodatamosh">datamoshing</a></li>
+</ul>
+
+<p>###Prerequisites</p>
+
+<ol>
+  <li>A laptop (preferably Mac or Linux)</li>
+  <li>Some experience with Python or another scripting language</li>
+  <li>Please install ffmpeg, mlt, sox ImageMagick, and Python (Python
+comes standard on a Mac) on your laptop so that we don’t waste time
+setting up at the workshop. Depending on your platform, this can be
+a harrowing experience, so if you have trouble, please let me
+know. On a mac, I recommend using
+<a href="http://www.macports.org/">Macports</a>+. On Linux, any decent package
+manager should have these packages. On Windows, you’re on your own.</li>
+</ol>
+
+<ul>
+  <li>
+    <p>If you are on a Mac and have <a href="http://www.macports.org/">MacPorts</a> installed, issue the
+following commands in the Terminal:</p>
+
+    <p>sudo port install youtube-dl sudo port install ffmpeg +gpl +lame
+  +x264 +xvid +universal sudo port install mlt +universal sudo port
+  install sox +universal sudo port install ImageMagick +universal</p>
+  </li>
+</ul>
+</div>
+                            </div>
+                            <div class="rightcol" style="width: 120px;">
+                                <div class="meta" style="font-size: 13px;">
+                         
+                                    
+                                    <a href="mailto:hello@kitchentablecoders.com?subject=I'd like to take Server-Side Video Editing">
+                                        <button id="register" style="font-size: 12px; padding: 4px 8px; text-transform:none; cursor:pointer">Request this<br/>class again</button>
+                                    </a>
+                                    
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="ask">
+                            <a id="ask-anything" href="mailto:hello@kitchentablecoders.com?subject=Question about the Server-Side Video Editing class">Ask us anything about this class</a>
+                            <div class="buttons"></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div><!-- id="main" -->
+        
+        <footer id="foot">
+	<div id="ktc-est">
+        ~ Est. 2011 Brooklyn NY 11211 ~
+    </div>
+    <span>Copyright 2011 Kitchen Table Coders
+    </br>
+    Logo designed by the good folks at <a href="http://ocupop.com">Ocupop</a></span>    
+</footer>
+
+    </div><!-- id="page" -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
+<!-- You may want to stats with your blog if not you should erase this file and remove inculude link from 
+You don't need to edit this file, you can set your ID at _config.yml -->
+<script>
+	var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+	(function(d, t) {
+		var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+		g.async = true;
+		g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g, s);
+	})(document, 'script');
+</script>
+
+
+</body>
+</html>

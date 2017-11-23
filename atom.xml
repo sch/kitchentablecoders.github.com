@@ -1,0 +1,1780 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Kitchen Table Coders | Workshops on the craft of creative coding in all its forms</title>
+ <link href="http://kitchentablecoders.github.com/atom.xml" rel="self"/>
+ <link href="http://kitchentablecoders.github.com"/>
+ <updated>2017-11-22T20:08:46-05:00</updated>
+ <id>http://layouts.studiomohawk.com/</id>
+
+ 
+ <entry>
+   <title>Kitchen Table Go</title>
+   <link href="http://kitchentablecoders.github.com/event/2015/09/15/GoGame/"/>
+   <updated>2015-09-15T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/event/2015/09/15/GoGame</id>
+   <content type="html">&lt;p&gt;Come join us in our Brooklyn studio for a relaxed evening of learning
+how to play Go - the ancient board game. Between games we often chat
+about whatever suits our fancy from programming languages to logic,
+art, music and more. No experience in any of the above required :)
+Bring your boards or your laptops and tablets with a Go client
+installed!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Introduction to Arcadia&colon; Live Functional Programming for Video Games</title>
+   <link href="http://kitchentablecoders.github.com/class/2015/06/13/001-arcadia-intro/"/>
+   <updated>2015-06-13T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2015/06/13/001-arcadia-intro</id>
+   <content type="html">&lt;p&gt;Introduction to Arcadia: Live Functional Programming for Video Games&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/arcadia-unity/Arcadia&quot;&gt;Arcadia&lt;/a&gt; brings the full power and interactive immediacy of performant live functional programming to the &lt;a href=&quot;http://unity3d.com/&quot;&gt;Unity&lt;/a&gt; game engine and development platform. Unity is the industry-standard tool for building professional-quality video games. &lt;a href=&quot;http://clojure.org/&quot;&gt;Clojure&lt;/a&gt; is an advanced, deeply expressive functional programming language. Arcadia is their integration, yielding a uniquely fluid, immersive game development experience.&lt;/p&gt;
+
+&lt;p&gt;This workshop will provide developers with everything they need to start making games in Arcadia.&lt;/p&gt;
+
+&lt;p&gt;We will cover:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Setting up Arcadia in a new or existing Unity project&lt;/li&gt;
+  &lt;li&gt;Injecting a live Clojure REPL into a running game&lt;/li&gt;
+  &lt;li&gt;Manipulating the Unity editor programmatically&lt;/li&gt;
+  &lt;li&gt;Using Arcadia to inspect and debug existing Unity code&lt;/li&gt;
+  &lt;li&gt;Working basics of the Unity model, and its relationship to Clojure&lt;/li&gt;
+  &lt;li&gt;Dependency management for sharing libraries&lt;/li&gt;
+  &lt;li&gt;Export to desktop games&lt;/li&gt;
+  &lt;li&gt;Time permitting, a demo of live programming in virtual reality with the Oculus Rift&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Prerequisites:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Basic knowledge of elementary functional programming ideas (eg map, filter, reduce)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Kitchen Table Go</title>
+   <link href="http://kitchentablecoders.github.com/class/2014/11/20/GoGame/"/>
+   <updated>2014-11-20T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2014/11/20/GoGame</id>
+   <content type="html">&lt;p&gt;Come join us in our Brooklyn studio for a relaxed evening of learning
+how to play Go - the ancient board game. Between games we often chat
+about whatever suits our fancy from programming languages to logic,
+art, music and more. No experience in any of the above required :)
+Bring your boards or your laptops and tablets with a Go client
+installed!&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Code Salon - Lee Byron and Adam Ernst</title>
+   <link href="http://kitchentablecoders.github.com/event/2014/11/13/code-salon-byron-ernst/"/>
+   <updated>2014-11-13T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/event/2014/11/13/code-salon-byron-ernst</id>
+   <content type="html">&lt;h3 id=&quot;building-real-products-with-immutable-data-and-declarative-ui&quot;&gt;Building Real Products With Immutable Data and Declarative UI&lt;/h3&gt;
+
+&lt;p&gt;Facebook recently transitioned iOS News Feed from mutable Core Data
+and procedural UIView code to an immutable (persistent) data store and
+declarative UI code, resulting in serious performance and reliability
+improvements and a dramatically smaller and simpler codebase.&lt;/p&gt;
+
+&lt;p&gt;Adam Ernst and Lee Byron will talk about some of the technology their
+team built over the last year to make this possible and will lead a
+discussion about where these concepts can take us next and the
+problems still to solve.&lt;/p&gt;
+
+&lt;p&gt;Adam Ernst is an iOS engineer at Facebook and tech lead of iOS News
+Feed. He’s also the author of iTrans and has contributed to
+Turntable.fm, Khan Academy, and Kiln.&lt;/p&gt;
+
+&lt;p&gt;Lee Byron has been a data scientist, product designer, and engineer at
+Facebook over the last 6 years. He’s a member of React.js core, and
+the author of Immutable.js.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Kitchen Table Go</title>
+   <link href="http://kitchentablecoders.github.com/class/2014/09/09/GoGame/"/>
+   <updated>2014-09-09T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2014/09/09/GoGame</id>
+   <content type="html">&lt;p&gt;Come join us in our Brooklyn studio for a relaxed evening of learning
+how to play Go - the ancient board game. Between games we often chat
+about whatever suits our fancy from programming languages to logic,
+art, music and more. No experience in any of the above required :)
+Bring your boards or your laptops and tablets with a Go client
+installed!&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Kitchen Table Go</title>
+   <link href="http://kitchentablecoders.github.com/class/2014/07/17/GoGame/"/>
+   <updated>2014-07-17T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2014/07/17/GoGame</id>
+   <content type="html">&lt;p&gt;Come join us in our Brooklyn studio for a relaxed evening of learning how to play Go - the ancient board game. Between games we often chat about whatever suits our fancy from programming languages to logic, art, music and more. No experience in any of the above required :) Bring your boards or your laptops and tablets with a Go client installed!&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Code Salon - Tomas Petricek</title>
+   <link href="http://kitchentablecoders.github.com/event/2014/07/07/code-salon-tomas/"/>
+   <updated>2014-07-07T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/event/2014/07/07/code-salon-tomas</id>
+   <content type="html">&lt;p&gt;###Language-integrated data with type providers&lt;/p&gt;
+
+&lt;p&gt;The world of data speaks a different language than the world of programming languages. On one side, we have REST, schema, micro-formats, JSON or RDF, but on the other side we have just types and classes. This mismatch makes it hard to access data from languages and especially from statically typed ones. I’ll show how F# type providers bridge this gab. I’ll cover accessing data from WorldBank and Freebase services, as well as JSON, XML and CSV documents.&lt;/p&gt;
+
+&lt;p&gt;In the talk and the follow-up discussion, I’d like to combine programming language theory (what type providers mean for the type system), practical programming (live coding to access interesting data) and the big picture (how type providers changed my view of the world).&lt;/p&gt;
+
+&lt;p&gt;Tomas is a computer scientist, book author and open-source developer. He is the lead developer of several F# data-science libraries, but he also contributed to the design of the F# language itself as an intern and independent contractor. He is finishing a PhD at the University of Cambridge, working on types for understanding context usage in programming languages. Tomas also likes to combine theory with practice and has been doing part-time F# consulting and training in the last few years.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Code Salon - Michael Bernstein</title>
+   <link href="http://kitchentablecoders.github.com/event/2014/04/17/code-salon-michael/"/>
+   <updated>2014-04-17T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/event/2014/04/17/code-salon-michael</id>
+   <content type="html">&lt;p&gt;###The Research Omphalos&lt;/p&gt;
+
+&lt;p&gt;Sometimes it feels like we’re reading and reading and talking and talking and losing sight of what it is we’re looking for. I have certainly been guilty of endlessly compiling more artifacts of knowledge than I can consume, turning learning into a fetish of collection. In an attempt to break out of these habits, I’d like to present some strands of study that I’ve pursued in the past few years and attempt to describe a future direction for research that partially explains what I’ve been up to and partially shows that I have no idea what I’m doing.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Immutable Stack</title>
+   <link href="http://kitchentablecoders.github.com/class/2014/04/12/the-immutable-stack/"/>
+   <updated>2014-04-12T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2014/04/12/the-immutable-stack</id>
+   <content type="html">&lt;p&gt;Kitchen Table Coders are excited to announce “The Immutable Stack”, a full day of training on Clojure, Datomic, ClojureScript, and Om. We believe the immutable stack is a game changer for architecting robust, modern applications.&lt;/p&gt;
+
+&lt;p&gt;The goal of the class is to give students hands-on experience building a real end-to-end immutable app, and to have them leave prepared to exercise those skills in the wild. With this training, we aim to replicate the same small hands-on experience that is a signature of our workshops while at the same time going much, much further in depth.&lt;/p&gt;
+
+&lt;p&gt;Only a basic understanding of Clojure is required.&lt;/p&gt;
+
+&lt;p&gt;The following is a rough outline of the material we expect to cover:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Backend&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;The Database: Datomic&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Schemas &lt;br /&gt;
+Datomic Datalog &lt;br /&gt;
+Transactions &lt;br /&gt;
+Deployment
+The API: Ring / Jetty
+Middleware &lt;br /&gt;
+Live development &lt;br /&gt;
+Deployment&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Frontend&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Developing ClojureScript Apps&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;ClojureScript &lt;br /&gt;
+Google Closure &lt;br /&gt;
+lein-cljsbuild configuration &lt;br /&gt;
+Source maps &amp;amp; debugging
+Applicaion State: UI as EDN
+Introduction to Om &lt;br /&gt;
+Reusable components &lt;br /&gt;
+Undo / Redo and Time Travel &lt;br /&gt;
+Client / Server synchronization&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>3D Audio with Cinder and FMODEx</title>
+   <link href="http://kitchentablecoders.github.com/class/2014/03/22/fmod-cinder/"/>
+   <updated>2014-03-22T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2014/03/22/fmod-cinder</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.fmod.org/&quot;&gt;FMODEx&lt;/a&gt; is a low level, high performance c++ audio API &lt;a href=&quot;http://en.wikipedia.org/wiki/FMOD#Games_using_FMOD&quot;&gt;used in many game engines&lt;/a&gt;. It makes it possible to add full 3D audio to your c++ application and supports even the most exotic audio hardware and speaker configurations. It’s especially great for installations because you can play dozens of sounds simultaneously and position them in space to create a rich, immersive experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://libcinder.org/&quot;&gt;Cinder&lt;/a&gt; (a library for professional-quality creative coding in C++) ships with support for FMODEx, but the API can be difficult to understand at first. In this workshop, we will look at this API and learn how to create a 3D audio application using Cinder.  We will cover:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Setting up your Cinder application&lt;/li&gt;
+  &lt;li&gt;Initializing your audio system (stereo, 5.1, 7.1, global reverb)&lt;/li&gt;
+  &lt;li&gt;Loading audio files (in memory and streaming from disk)&lt;/li&gt;
+  &lt;li&gt;Playing sounds (looping and non)&lt;/li&gt;
+  &lt;li&gt;Adjusting sound properties (volume, position, balance)&lt;/li&gt;
+  &lt;li&gt;Adding built-in DSP effects (flange, pitch shift, echo)&lt;/li&gt;
+  &lt;li&gt;Moving sounds in 3D space&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;possibly&lt;/em&gt; demo of “raw mode”, which allows you to manually address individual speakers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Participants should have some experience with Cinder (beginner to intermediate is fine) and should bring a laptop with Cinder installed and functioning (example apps should build and run), as well as some sample sound effects (loops, soundtrack, effects).&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Code Salon - David Nolen</title>
+   <link href="http://kitchentablecoders.github.com/event/2014/03/19/code-salon-david/"/>
+   <updated>2014-03-19T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/event/2014/03/19/code-salon-david</id>
+   <content type="html">&lt;p&gt;###Turning Around: Reflections on Om&lt;/p&gt;
+
+&lt;p&gt;In Bret Victor’s &lt;a href=&quot;http://worrydream.com/Links2013/&quot;&gt;fantastic reading roundup for
+2013&lt;/a&gt;, he comments in the margin
+that as developers we often ask the question “How can I do a better
+job today?” instead of the asking the question “How can we make a
+better tomorrow?”. He uses the clever analogy of ants marching along a
+particular branch of a tree believing that it goes on forever.&lt;/p&gt;
+
+&lt;p&gt;I’ve built user interfaces in anger with many different technologies,
+including AppKit, UIKit, Processing, Flash, OpenGL C++, and various
+JavaScript libraries and custom frameworks. Having walked down the
+mainstream branch for eight years, I believe there is another
+way. While I can’t say what the other branches will offer, I’m turning
+around and this talk will document my lines of thinking in Om that
+reflect this. Hopefully we can collectively squint into the distance
+and see what other branches might hope to offer.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hacking the Wacom - Better Drawing through Hardware Modification</title>
+   <link href="http://kitchentablecoders.github.com/class/2014/03/01/hacking-the-wacom/"/>
+   <updated>2014-03-01T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2014/03/01/hacking-the-wacom</id>
+   <content type="html">&lt;p&gt;Wacom tablets are remarkable tools, and effectively the only way to draw on a computer. However, their default plastic surface is unpleasant to draw with and imprecise. We’ll explore how to modify a normal Wacom tablet to deliver the texture and precision expected of professional analog drawing tools.&lt;/p&gt;
+
+&lt;p&gt;This class will cover:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;How to reversibly modify the plastic tip of a Wacom stylus into a sharpened metal point comparable in feeling to nib pens.&lt;/li&gt;
+  &lt;li&gt;How to select alternate surfaces for the tablet itself.&lt;/li&gt;
+  &lt;li&gt;Auxiliary supports for precise curves.&lt;/li&gt;
+  &lt;li&gt;Software settings and other tips for maximizing gestural control.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Code Salon - Evan Czaplicki</title>
+   <link href="http://kitchentablecoders.github.com/event/2014/02/27/code-salon-evan-c/"/>
+   <updated>2014-02-27T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/event/2014/02/27/code-salon-evan-c</id>
+   <content type="html">&lt;h3 id=&quot;taxonomy-of-frp&quot;&gt;Taxonomy of FRP&lt;/h3&gt;
+
+&lt;p&gt;Functional Reactive Programming (FRP) is becoming an increasingly common way to structure event-driven code, but this term “FRP” actually refers to a large body of increasingly diverse work. This talk will quickly cover the basics of FRP, and then go into a couple different formulations of FRP that people are using. We will explore how these formulations fit together historically and theoretically. Finally, we will see how this plays out in the theory and implementation of FRP in Elm.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;About Evan&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Evan is the designer and developer of Elm, a purely functional programming language for web programming. He works at Prezi improving Elm’s compiler, tools, community, and learning resources to make the language a great choice for industrial use. He previously worked at Google, programming gmail servers in C++ and learning precisely when ontologies and machine learning are not your friend.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ejecta - JavaScript Canvas running natively on iOS</title>
+   <link href="http://kitchentablecoders.github.com/class/2014/02/26/ejecta/"/>
+   <updated>2014-02-26T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2014/02/26/ejecta</id>
+   <content type="html">&lt;p&gt;Imagine being able to develop your JavaScript Canvas project in the browser, then drag it into XCode, hit 'play', and have it run on the iOS device in fast native code. We get the speedy prototyping of a JavaScript stack, with the sturdy performance of a native Objective-C app.
+&lt;/p&gt;
+&lt;p&gt;
+Ejecta is a Fast, Open Source JavaScript, Canvas and Audio Implementation for iOS. JavaScript code is executed directly by a JavaScript VM (JavaScriptCore), the HTML5 Canvas API is implemented in native code with OpenGL, Audio is implemented with OpenAL. Several other APIs (touch, accelerometer, localStorage) behave like those in a real browser.
+&lt;/p&gt;
+&lt;p&gt;
+Ejecta was intended to work seamlessly with the ImpactJS game library, both developed by Dominic Szablewski from Phobos Labs. Dominic was gracious enough to open-source Ejecta, allowing other JavaScript libraries to take advantage of his great work.
+&lt;/p&gt;
+&lt;p&gt;
+In this workshop we'll spend the afternoon getting Ejecta up and running in your XCode&lt;/p&gt;
+
+
+&lt;h2&gt;Prerequisites&lt;/h2&gt;
+Please have XCode 4.6 or later installed on your computer. You'll need an Apple Developers account if you'd like to see things running on your iPhone/iPad (otherwise you'll only be testing on the OSX simulator). A basic familiarity with JavaScript and particularly Canvas is highly recomended.
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Building Automated Twitter Accounts</title>
+   <link href="http://kitchentablecoders.github.com/class/2014/02/15/building-twitterbots/"/>
+   <updated>2014-02-15T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2014/02/15/building-twitterbots</id>
+   <content type="html">&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+
+&lt;p&gt;everyword is tweeting the entire english language, one word at a time, every 30 minutes. greatartbot is tweeting a new piece of digital art, four times a day. 555uhz is tweeting the film Top Gun in screenshots, one second at a time, every 30 minutes.&lt;/p&gt;
+
+&lt;p&gt;Twitter is full of accounts that are operated by robots rather than human beings.&lt;/p&gt;
+
+&lt;p&gt;Building bots is a heap of fun, and surprisingly simple! Once you get the hang of it, a new bot can be built from scratch in a matter of hours. This workshop is aimed at people with no experience maintaining a web server or writing code, and by the end everyone will have a working Twitter bot.&lt;/p&gt;
+
+&lt;p&gt;You will learn to&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Set up and configure your own Linux server on Linode&lt;/li&gt;
+  &lt;li&gt;Securely log into your server to make modifications&lt;/li&gt;
+  &lt;li&gt;Use the Linux terminal&lt;/li&gt;
+  &lt;li&gt;Register your bot with Twitter&lt;/li&gt;
+  &lt;li&gt;Implement your bot in Ruby (no previous Ruby experience necessary)&lt;/li&gt;
+  &lt;li&gt;Set your bot on a schedule using cron&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Introducing Code Salon</title>
+   <link href="http://kitchentablecoders.github.com/event/2014/02/12/code-salon/"/>
+   <updated>2014-02-12T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/event/2014/02/12/code-salon</id>
+   <content type="html">&lt;p&gt;KTC Code Salon is a new Brooklyn Meetup curated by David Nolen to fill a gap in the NYC developer meetup scene. Hosted each month at the Kitchen Table Coders studio in Brooklyn, imagine your favorite speakers from your favorite conferences speaking to an intimate audience in a relaxed setting: programming languages, distributed systems, databases, computer graphics, machine learning, hardware hacking, game design, you name it. That’s Code Salon.&lt;/p&gt;
+
+&lt;p&gt;Presentations will always be limited to 40 minutes, same as a conference. The remainder of the time is open for the type of discussion that we find so invigorating in the hallways of conferences (without the $2000 ticket/travel/hotel price tag).&lt;/p&gt;
+
+&lt;p&gt;The $15 admission covers space, beer, and decreases the likelihood of flaking attendees. In return, the talks are guaranteed to be of the highest caliber from some of the most interesting technology speakers from around the world. Occasionally the cost of admission may be more or less depending on the speaker, but it will always be reasonable.&lt;/p&gt;
+
+&lt;p&gt;We’ll be announcing our first set of speakers in the next week or so.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Game Changer, Introduction to Unity2D</title>
+   <link href="http://kitchentablecoders.github.com/class/2014/01/25/intro-to-unity-2d/"/>
+   <updated>2014-01-25T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2014/01/25/intro-to-unity-2d</id>
+   <content type="html">&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+
+&lt;p&gt;The popular Unity3D engine has recently added native support for 2D
+graphics, which has the potential to turn the world of 2D games upside
+down. You no longer have to create 3D models or manage a 3D world to
+use this powerful tool. Exciting 2D games for web, desktop, or mobile
+platforms are easier to make than ever without sacrificing Unity’s
+incredible workflow. Anyone interested in developing these kinds of
+games should become familiar with it.&lt;/p&gt;
+
+&lt;p&gt;This four hour workshop will cover the basics of Unity and focus on
+its new 2D features. Towards the end of the workshop, we’ll build a
+simple game together.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Basics of Unity&lt;/li&gt;
+  &lt;li&gt;Differences with Unity3D&lt;/li&gt;
+  &lt;li&gt;Importing Assets&lt;/li&gt;
+  &lt;li&gt;Animation Curves&lt;/li&gt;
+  &lt;li&gt;Animation with Sprite Sheets&lt;/li&gt;
+  &lt;li&gt;Animation States&lt;/li&gt;
+  &lt;li&gt;Layers&lt;/li&gt;
+  &lt;li&gt;Physics&lt;/li&gt;
+  &lt;li&gt;Cameras&lt;/li&gt;
+  &lt;li&gt;Particle Systems&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h3&gt;
+
+&lt;p&gt;Familiarity with some kind of programming language is a must,
+experience with Unity 3D is preferred.&lt;/p&gt;
+
+&lt;p&gt;Please be sure to have the latest version of Unity installed&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Introduction to Unity3d</title>
+   <link href="http://kitchentablecoders.github.com/class/2014/01/18/intro-to-unity/"/>
+   <updated>2014-01-18T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2014/01/18/intro-to-unity</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://unity3d.com/&quot;&gt;Unity3D&lt;/a&gt;&amp;nbsp;is&amp;nbsp;a high performance game engine that supports&amp;nbsp;&lt;a href=&quot;http://unity3d.com/unity/multiplatform&quot;&gt;tons of platforms&lt;/a&gt;, including MacOS, Windows, iOS, Android, web plugin, PS3, XBox, and Wii. &amp;nbsp;It also features the &lt;a href=&quot;http://unity3d.com/unity/quality/physics&quot;&gt;PhysX physics engine&lt;/a&gt;, a full animation system, FMOD for spatialized audio, and a pretty nice asset market, too! &amp;nbsp;All wrapped in an easy to use interface.&lt;/p&gt;
+&lt;p&gt;This 4 hour workshop will cover the following:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span&gt;Creating basic GameObjects&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Prefabs&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Using the built in physics engine (RigidBody, Colliders)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Importing 3D models and other assets&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Basic scripting using both JavaScript and C#&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Animating using the Animation interface&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Particle systems&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;3D Audio effects&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Camera effects, Skyboxes, Lighting&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Character Controller&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Unity is a commercial game engine, but there is &lt;a href=&quot;http://unity3d.com/unity/download&quot;&gt;a free version&lt;/a&gt; available with most of the features of the commercial version. If you'd like to participate, I recommend downloading and installing before coming to the workshop.&lt;/p&gt;
+
+&lt;h2&gt;Prerequisites&lt;/h2&gt;
+For the scripting section of the workshop, you should have some familiarity with some kind of programming language.
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ejecta - JavaScript Canvas running natively on iOS</title>
+   <link href="http://kitchentablecoders.github.com/class/2014/01/11/ejecta/"/>
+   <updated>2014-01-11T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2014/01/11/ejecta</id>
+   <content type="html">&lt;p&gt;Imagine being able to develop your JavaScript Canvas project in the browser, then drag it into XCode, hit 'play', and have it run on the iOS device in fast native code. We get the speedy prototyping of a JavaScript stack, with the sturdy performance of a native Objective-C app.
+&lt;/p&gt;
+&lt;p&gt;
+Ejecta is a Fast, Open Source JavaScript, Canvas and Audio Implementation for iOS. JavaScript code is executed directly by a JavaScript VM (JavaScriptCore), the HTML5 Canvas API is implemented in native code with OpenGL, Audio is implemented with OpenAL. Several other APIs (touch, accelerometer, localStorage) behave like those in a real browser.
+&lt;/p&gt;
+&lt;p&gt;
+Ejecta was intended to work seamlessly with the ImpactJS game library, both developed by Dominic Szablewski from Phobos Labs. Dominic was gracious enough to open-source Ejecta, allowing other JavaScript libraries to take advantage of his great work.
+&lt;/p&gt;
+&lt;p&gt;
+In this workshop we'll spend the afternoon getting Ejecta up and running in your XCode&lt;/p&gt;
+
+
+&lt;h2&gt;Prerequisites&lt;/h2&gt;
+Please have XCode 4.6 or later installed on your computer. You'll need an Apple Developers account if you'd like to see things running on your iPhone/iPad (otherwise you'll only be testing on the OSX simulator). A basic familiarity with JavaScript and particularly Canvas is highly recomended.
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Game Changer, Introduction to Unity2D</title>
+   <link href="http://kitchentablecoders.github.com/class/2013/12/14/intro-to-unity-2d/"/>
+   <updated>2013-12-14T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2013/12/14/intro-to-unity-2d</id>
+   <content type="html">&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+
+&lt;p&gt;The popular Unity3D engine has recently added native support for 2D
+graphics, which has the potential to turn the world of 2D games upside
+down. You no longer have to create 3D models or manage a 3D world to
+use this powerful tool. Exciting 2D games for web, desktop, or mobile
+platforms are easier to make than ever without sacrificing Unity’s
+incredible workflow. Anyone interested in developing these kinds of
+games should become familiar with it.&lt;/p&gt;
+
+&lt;p&gt;This four hour workshop will cover the basics of Unity and focus on
+its new 2D features. Towards the end of the workshop, we’ll build a
+simple game together.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Basics of Unity&lt;/li&gt;
+  &lt;li&gt;Differences with Unity3D&lt;/li&gt;
+  &lt;li&gt;Importing Assets&lt;/li&gt;
+  &lt;li&gt;Animation Curves&lt;/li&gt;
+  &lt;li&gt;Animation with Sprite Sheets&lt;/li&gt;
+  &lt;li&gt;Animation States&lt;/li&gt;
+  &lt;li&gt;Layers&lt;/li&gt;
+  &lt;li&gt;Physics&lt;/li&gt;
+  &lt;li&gt;Cameras&lt;/li&gt;
+  &lt;li&gt;Particle Systems&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h3&gt;
+
+&lt;p&gt;Familiarity with some kind of programming language is a must,
+experience with Unity 3D is preferred.&lt;/p&gt;
+
+&lt;p&gt;Please be sure to have the latest version of Unity installed&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>JavaScript Survivor</title>
+   <link href="http://kitchentablecoders.github.com/class/2013/11/23/javascript-survivor/"/>
+   <updated>2013-11-23T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2013/11/23/javascript-survivor</id>
+   <content type="html">&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+
+&lt;p&gt;We could all use some JavaScript survival skills in a pinch. This
+class will show you how to write clean client side JavaScript using
+jQuery, Underscore and JavaScript Templates. We’ll emphasize good
+functional style to manage code complexity. We’ll also cover how to
+use browser based developer tools effectively and demonstrate useful
+approaches for cross browser testing (shakes fist at Internet
+Explorer). Expect to leave the class with adequate tools to write
+JavaScript fearlessly when backed into a corner.&lt;/p&gt;
+
+&lt;h3 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h3&gt;
+
+&lt;p&gt;You should be familiar with at least one other programming language
+and have passing familiarity with JavaScript.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Intermediate Creative Coding with openFrameworks</title>
+   <link href="http://kitchentablecoders.github.com/class/2013/09/21/intermediate-of/"/>
+   <updated>2013-09-21T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2013/09/21/intermediate-of</id>
+   <content type="html">&lt;p&gt;####This is a 6 week workshop. Saturdays, 1pm-5pm, September
+    21-October 26th&lt;/p&gt;
+
+&lt;p&gt;Have you been working with Processing or ActionScript, but need more
+performance to realize your interactive project? Are you a JavaScript
+hacker who’d like to add c++ to her arsenal of skills? If so, it’s
+probably time to make the jump to
+&lt;a href=&quot;http://www.openframeworks.cc&quot;&gt;openFrameworks&lt;/a&gt;, an open source c++
+toolkit for creative coding. OpenFrameworks is not only a very
+powerful tool for creative coding, but a great way to enter the
+sometimes daunting world of c++. For just a few examples of the type
+of things that are possible with openFrameworks, check out the oF
+gallery here.&lt;/p&gt;
+
+&lt;p&gt;This &lt;em&gt;6-week intensive&lt;/em&gt; workshop is for coders who are already
+familiar with object oriented programming concepts, but would like to
+dive into openFrameworks. We will cover topics such as interfacing
+with web services, intermediate-level oF/openGL classes, common
+computer vision techniques, and working with addons. For a full list
+of topics covered, please see the agenda below.&lt;/p&gt;
+
+&lt;p&gt;Participants are encouraged (but not required) to come in with a
+specific idea for a project they’d like to do. Each week, we will work
+for 3 hours on covering new concepts, and then (time permitting) spend
+the last hour working on individual projects. Additional
+“studio/office hours” for working on and getting assitance with
+projects can be arranged for a nominal fee.&lt;/p&gt;
+
+&lt;p&gt;###Prerequisites&lt;/p&gt;
+
+&lt;p&gt;This is an &lt;em&gt;intermediate level&lt;/em&gt; workshop. You must be comfortable with
+object oriented programming concepts to participate. If you aren’t
+sure whether you are ready to take this workshop, please ask me. If
+you would like to take this workshop but aren’t sure you meet the
+prerequisites, please contact me and let me know. If there is enough
+interest, I will run a 3 week “Introduction to Creative Coding with
+openFrameworks” workshop before this one, or we can arrange one-on-one
+tutoring to prepare you for this workshop.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;IMPORTANT&lt;/em&gt; Participants should
+&lt;a href=&quot;http://www.openframeworks.cc/download/&quot;&gt;download and install openFrameworks&lt;/a&gt;
+(and appropriate IDE) and run all examples in the “examples” folder
+before the first workshop. If you need help with either of these
+steps, please contact us.&amp;lt;/p&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;###Agenda&lt;/p&gt;
+
+&lt;p&gt;This is is a rough outline of the topics that we will cover in the
+workshop. I will try my best to get through every topic listed
+here. However, at Kitchen Table Coders we keep wokshop sizes very
+small so that we can personalize each one as much as possible. So it
+may change over the course of the class based on interest and skill
+level.&lt;/p&gt;
+
+&lt;h3 id=&quot;week-1-sept-21---introduction&quot;&gt;Week 1: Sept 21 - Introduction&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openFrameworks introduction&lt;/li&gt;
+  &lt;li&gt;basic drawing and colors&lt;/li&gt;
+  &lt;li&gt;ofImage vs ofTexture (what’s the difference?)&lt;/li&gt;
+  &lt;li&gt;using vectors in 2D and 3D space&lt;/li&gt;
+  &lt;li&gt;noise&lt;/li&gt;
+  &lt;li&gt;ofTrueTypeFont, ofDirectory&lt;/li&gt;
+  &lt;li&gt;ofVideoGrabber, ofVideoPlayer&lt;/li&gt;
+  &lt;li&gt;Finding/Using addons&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-2-sept-28--opengl&quot;&gt;Week 2: Sept 28- openGL&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;matrix transformations&lt;/li&gt;
+  &lt;li&gt;ofMesh (ofVBO, ofVboMesh)&lt;/li&gt;
+  &lt;li&gt;ofCamera&lt;/li&gt;
+  &lt;li&gt;ofFbo&lt;/li&gt;
+  &lt;li&gt;ofShader&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-3-october-5---networkingweb&quot;&gt;Week 3: October 5 - Networking/Web&lt;/h3&gt;
+
+&lt;p&gt;*
+  &lt;a href=&quot;https://github.com/labatrockwell/ofxLibwebsockets&quot;&gt;ofxLibWebSockets&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ofURLFileLoader&lt;/li&gt;
+  &lt;li&gt;interfacing with web services (REST, JSON)&lt;/li&gt;
+  &lt;li&gt;Flickr, Twitter, YouTube, EchoNest, Awesomium&lt;/li&gt;
+  &lt;li&gt;basic regular expressions&lt;/li&gt;
+  &lt;li&gt;calling command line programs from within oF&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-4-october-12---computer-vision&quot;&gt;Week 4: October 12 - Computer Vision&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;sifting through pixels&lt;/li&gt;
+  &lt;li&gt;isolate a single color in video input&lt;/li&gt;
+  &lt;li&gt;background subtraction&lt;/li&gt;
+  &lt;li&gt;blob detection&lt;/li&gt;
+  &lt;li&gt;blob tracking&lt;/li&gt;
+  &lt;li&gt;Kinect&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-5-october-19-c--memory&quot;&gt;Week 5: October 19: c++ &amp;amp;&amp;amp; Memory&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;References&lt;/li&gt;
+  &lt;li&gt;Pointers&lt;/li&gt;
+  &lt;li&gt;Passing by pointer vs pass by reference&lt;/li&gt;
+  &lt;li&gt;Constructors&lt;/li&gt;
+  &lt;li&gt;the “new” operator&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-6-october-26-buffer-week&quot;&gt;Week 6: October 26: Buffer Week&lt;/h3&gt;
+
+&lt;p&gt;This week will either be used to cover stuff we didn’t get to in the
+previous weeks, or any topic that the participants wish to cover. Last
+year, we did a basic Unity introduction and some additional Kinect
+lessons. Oher potential topics could be iOS development, physics
+simulators, or just about any other addon that you can find at
+&lt;a href=&quot;http://www.ofxaddons.com&quot;&gt;ofxAddons&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please contact us with any questions/concerns/suggestions.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mechanical Turk Workshop</title>
+   <link href="http://kitchentablecoders.github.com/class/2013/08/10/mturk-workshop/"/>
+   <updated>2013-08-10T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2013/08/10/mturk-workshop</id>
+   <content type="html">&lt;p&gt;####This workshop takes place on August 10th and 11th, noon-5pm&lt;/p&gt;
+
+&lt;p&gt;In 2005, Amazon launched &lt;a href=&quot;https://www.mturk.com/mturk/&quot;&gt;Mechanical Turk&lt;/a&gt;, a crowdsourcing (“Artificial Artificial Intelligence”) platform that made it possible to integrate human intelligence directly into software. The service was mostly aimed at businesses in need of quick, cheap, almost-mindless labor. But artists quickly began to explore both the creative potential and the significant ethical and cultural concerns surrounding the practice of using the Internet as a labor marketplace, leading to some great projects (see below). Although the buzz about crowdosourcing has died down somewhat, the technique is still incredibly prevelant on the web, with new services frequently popping up that attempt to harness the creative and labor potential of an Internet of “workers”.&lt;/p&gt;
+
+&lt;p&gt;In this two-day workshop, we will start by discussing crowdsourcing in general and MTurk specifically, in order to orient ourselves in the current landscape. We will then move on to learning how to create our own Mechanical Turk projects using tools like Node.js, Express, Mongodb, and the &lt;a href=&quot;http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/Welcome.html&quot;&gt;MTurk API&lt;/a&gt;. Finally, we will launch our projects using another Amazon service: &lt;a href=&quot;http://aws.amazon.com/ec2/&quot;&gt;Elastic Compute Cloud&lt;/a&gt; (EC2). Participants should come with some idea of a project that they’d like to start.&lt;/p&gt;
+
+&lt;p&gt;##Schedule
+####Saturday&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introductions&lt;/li&gt;
+  &lt;li&gt;Discussion&lt;/li&gt;
+  &lt;li&gt;Share project ideas, get feedback (optional)&lt;/li&gt;
+  &lt;li&gt;Creating a foundation for our application with &lt;a href=&quot;http://nodejs.org/&quot;&gt;Node.js&lt;/a&gt; / &lt;a href=&quot;http://expressjs.com/&quot;&gt;Express&lt;/a&gt; / Twitter Bootstrap&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/gett/mongojs&quot;&gt;mongojs module&lt;/a&gt; and &lt;a href=&quot;https://mongolab.com/welcome/&quot;&gt;Mongolab&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Introduction to MTurk: terminology, manually creating HITs, manual HIT management, Requester/Worker Sandbox&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;####Sunday&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jefftimesten/mturk&quot;&gt;Mturk nodejs module&lt;/a&gt;: Creating HITs from within our application, qualifications, fetching results, approving/rejecting answers&lt;/li&gt;
+  &lt;li&gt;If time permits, &lt;a href=&quot;http://www.twilio.com/&quot;&gt;Twilio&lt;/a&gt; &lt;a href=&quot;http://twilio.github.io/twilio-node/&quot;&gt;for nodejs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Begin working on projects&lt;/li&gt;
+  &lt;li&gt;Deploying on EC2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##Prerequisites/Preparations&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Please sign up for a &lt;a href=&quot;https://www.mturk.com/mturk/&quot;&gt;Mechanical Turk&lt;/a&gt; account before the workshop. Amazon requires that you deposit money into your account before posting a job to Mturk. This money is used to pay the workers when/if they complete an assignment. Please deposit $10-$20 for the purposes of this workshop.&lt;/li&gt;
+  &lt;li&gt;As much as I would have liked to make this workshop language-agnostic, I don’t see a way to do this without delving deep into the MTurk API, which is outside of the scope of what is possible in one weekend. With that in mind, I’ve chosen Node.js - mostly because I wrote the mturk nodejs module for a previous project. Therefore, in order to keep the focus of the workshop on MTurk and not Nodejs, some experience with Node.js and Express is required. If you’ve never these tools, please make sure to complete the following tutorials before attending the workshop. If have questions while completing these tutorials, please contact us. It also may be possible to arrange some private tutoring before the workshop.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://expressjs.com/guide.html&quot;&gt;Express Guide&lt;/a&gt; and &lt;a href=&quot;https://github.com/visionmedia/express/tree/master/examples&quot;&gt;Express examples&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://mongolab.com/signup/&quot;&gt;Make yourself a MongoLab account&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://howtonode.org/node-js-and-mongodb-getting-started-with-mongojs&quot;&gt;Node.js and MongoDB - Getting started with MongoJS&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Please sign up for &lt;a href=&quot;http://aws.amazon.com/&quot;&gt;Amazon Web Services&lt;/a&gt; before the workshop. Note that there will be a nominal fee for starting a web instance for use in this workshop. If you are feeling ambitious and want to get a head start, check out &lt;a href=&quot;http://www.bennadel.com/blog/2321-How-I-Got-Node-js-Running-On-A-Linux-Micro-Instance-Using-Amazon-EC2.htm&quot;&gt;Ben Adel’s tutorial on setting up an EC2 instance for a Node project&lt;/a&gt; or &lt;a href=&quot;http://iconof.com/blog/how-to-install-setup-node-js-on-amazon-aws-ec2-complete-guide/&quot;&gt;a similar one for Windows&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Please read the (mostly short) articles and check out the projects below&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;reading-list&quot;&gt;Reading List&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.furtherfield.org/reviews/representing-labor-ten-thousand-cents-and-amazons-mechanical-turk&quot;&gt;Representing Labor: Ten Thousand Cents and Amazon’s Mechanical Turk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.wired.com/techbiz/media/news/2007/07/crowdsourcing&quot;&gt;What Does Crowdsourcing Really Mean?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.salon.com/2006/07/24/turks_3/&quot;&gt;“I make $1.45 a week and I love it”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://digitallabor.org/&quot;&gt;Internet as Playground and Factory&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;selected-projects&quot;&gt;Selected Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://socialturkers.com/&quot;&gt;Social Turkers: Crowdsourced Dating&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mattrichardson.com/Descriptive-Camera/&quot;&gt;Descriptive Camera&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.crowdworkersoftheworldunite.com/&quot;&gt;Crowd Workers of the World, Unite&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://learningtoloveyoumore.com/&quot;&gt;Learning to Love You More&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mashable.com/2010/10/27/johnny-cash-project/&quot;&gt;The Johnny Cash Project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.aaronkoblin.com/&quot;&gt;Aaron Koblin&lt;/a&gt;: Sheep Market, Ten Thousand Cents, Bicycle Built for Two Thousand, The Single Lane Super Highway&lt;/li&gt;
+  &lt;li&gt;Shamless Self Reference: &lt;a href=&quot;http://www.jeffcrouse.info/project/invisible_threads.html&quot;&gt;Invisible Threads&lt;/a&gt; and &lt;a href=&quot;http://laborersoflove.com/&quot;&gt;Laborers of Love&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Server-Side Video Editing</title>
+   <link href="http://kitchentablecoders.github.com/class/2013/07/27/server-side-video/"/>
+   <updated>2013-07-27T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2013/07/27/server-side-video</id>
+   <content type="html">&lt;p&gt;While there have been some great projects that use browser-based
+real-time graphics teqhniques combined with video sharing APIs to
+create interactive, video-driven experiences, the results of these
+types of projects are usually fleeting. What if you want to allow
+users to create a custom, shareable, downloadable video artifact that
+draws from the huge world of source audio and video out there on the
+web?  In this workshop, we will explore a suite of tools that can be
+used to create a server-side video editing platform that can churn out
+customized video files based on logic that we provide. I like to call
+this process “procedural video editing”, and while it’s nowhere near
+as sophisticated as a tool like FinalCut, it is very powerful
+nonetheless.&lt;/p&gt;
+
+&lt;p&gt;###Agenda&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First, we will look at a program called
+&lt;a href=&quot;https://github.com/rg3/youtube-dl&quot;&gt;youtube-dl&lt;/a&gt; that will allow us
+to gather video content from sites like YouTube, Vimeo, and many
+more.&lt;/li&gt;
+  &lt;li&gt;Once we have acquired our source content, we will need to massage
+the format of the videos. To do this, we will use the legendary
+command line video workhorse: &lt;a href=&quot;http://www.ffmpeg.org/&quot;&gt;ffmpeg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;We will use &lt;a href=&quot;http://www.mltframework.org/&quot;&gt;MLT framework&lt;/a&gt; (“melt”)
+to edit the videos together&lt;/li&gt;
+  &lt;li&gt;To automate the process, we will use Python (specifically,
+&lt;a href=&quot;http://docs.python.org/2/library/subprocess.html&quot;&gt;the Subprocess module&lt;/a&gt;). If
+you wish to use another scripting language, that’s fine - the
+language itself is not important to the main techniques. However, I
+will be providing some sample code in Python.&lt;/li&gt;
+  &lt;li&gt;We will talk generally about how to install on a server so that it
+is accessable on the web&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There will be an optional (free) work session on the 28th (the next
+day) where participants may come back to the studio to work on their
+projects and get help from Jeff.&lt;/p&gt;
+
+&lt;p&gt;###Techniques/Sample Code&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Get video info (ffprobe)&lt;/li&gt;
+  &lt;li&gt;Crossfading (mlt)&lt;/li&gt;
+  &lt;li&gt;Video overlays (ffmpeg)&lt;/li&gt;
+  &lt;li&gt;Watermarking (ffmpeg)&lt;/li&gt;
+  &lt;li&gt;Find video based on keyword (Youtube)&lt;/li&gt;
+  &lt;li&gt;Find news video (Archive.org)&lt;/li&gt;
+  &lt;li&gt;Generating video clips from Google Streetview (“&lt;a href=&quot;http://hyperlapse.tllabs.io/&quot;&gt;Hyperlapse&lt;/a&gt;”)&lt;/li&gt;
+  &lt;li&gt;Using &lt;a href=&quot;http://developer.echonest.com/docs/v4/&quot;&gt;EchoNest
+API&lt;/a&gt; to edit a video to the beat of a song&lt;/li&gt;
+  &lt;li&gt;Generate title sequence using &lt;a href=&quot;http://www.pythonware.com/products/pil/&quot;&gt;Python Imaging
+Library&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Incorporating &lt;a href=&quot;https://github.com/grampajoe/Autodatamosh&quot;&gt;datamoshing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;###Prerequisites&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A laptop (preferably Mac or Linux)&lt;/li&gt;
+  &lt;li&gt;Some experience with Python or another scripting language&lt;/li&gt;
+  &lt;li&gt;Please install ffmpeg, mlt, sox ImageMagick, and Python (Python
+comes standard on a Mac) on your laptop so that we don’t waste time
+setting up at the workshop. Depending on your platform, this can be
+a harrowing experience, so if you have trouble, please let me
+know. On a mac, I recommend using
+&lt;a href=&quot;http://www.macports.org/&quot;&gt;Macports&lt;/a&gt;+. On Linux, any decent package
+manager should have these packages. On Windows, you’re on your own.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you are on a Mac and have &lt;a href=&quot;http://www.macports.org/&quot;&gt;MacPorts&lt;/a&gt; installed, issue the
+following commands in the Terminal:&lt;/p&gt;
+
+    &lt;p&gt;sudo port install youtube-dl sudo port install ffmpeg +gpl +lame
+  +x264 +xvid +universal sudo port install mlt +universal sudo port
+  install sox +universal sudo port install ImageMagick +universal&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Intermediate OpenFrameworks for iOS</title>
+   <link href="http://kitchentablecoders.github.com/class/2013/02/09/of-for-ios/"/>
+   <updated>2013-02-09T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2013/02/09/of-for-ios</id>
+   <content type="html">&lt;p&gt;This session will cover intermediate features of OpenFrameworks for iOS. We’ll examine such things as:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Integrating a native UI (sliders/buttons/etc.) with the OpenGL View&lt;/li&gt;
+  &lt;li&gt;Using FBOs for off-screen drawing, which can help with performance&lt;/li&gt;
+  &lt;li&gt;Techniques for understanding and handling multi-touch events across UIViews&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Is this session for me?&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Basic experience with writing OF desktop apps. We recommend that you come with a few OpenFrameworks projects under your belt.&lt;/li&gt;
+  &lt;li&gt;The session assumes you have already successfully got at least one of the OF examples running on your iOS device.&lt;/li&gt;
+  &lt;li&gt;A very basic understanding of Objective C is recommended but not required.&lt;/li&gt;
+  &lt;li&gt;Please have a developers license from Apple, so we can run the code on your device.
+Please note that we won’t have time to dive into advanced 3D (Camera, Matrices, Meshes, etc). We’ll defer these subjects to an upcoming advanced session.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Programming User Interfaces for the Web</title>
+   <link href="http://kitchentablecoders.github.com/class/2013/02/02/uis-for-the-web/"/>
+   <updated>2013-02-02T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2013/02/02/uis-for-the-web</id>
+   <content type="html">&lt;p&gt;Contemporary web applications have raised the bar for interactive user experiences in browsers of all shapes and sizes, and programming for this fluid medium is a unique challenge. It’s not just a simple matter of html markup, but a sophisticated combination of control logic, data structure and visual styling. Modern UI development requires a thorough understanding of JavaScript, the model-view-controller (MVC) pattern, and asynchronous programming.&lt;/p&gt;
+
+&lt;p&gt;We’ll walk you through the many winding paths of creating robust web UIs with an emphasis on the underlying concepts. You should have intermediate programming experience with any language (but some experience with JavaScript is a must).&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Introduction to D3</title>
+   <link href="http://kitchentablecoders.github.com/class/2013/01/26/d3-intro/"/>
+   <updated>2013-01-26T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2013/01/26/d3-intro</id>
+   <content type="html">&lt;p&gt;D3 is a framework for declarative data visualization in JavaScript, used by sites such as nytimes.com to make beautiful data-driven graphics for the web. While not a general-purpose graphics tool, it excels in revealing relationships between data and diagrams by embracing the browser’s existing support for Javascript, CSS, and SVG. This workshop will guide you through D3’s potentially abstruse minutia by providing a dataset and touching on all the essentials to create elegant, web-worthy visualizations.&lt;/p&gt;
+
+&lt;p&gt;Prerequisites: Intermediate programmer comfortable with JavaScript&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Intermediate Creative Coding with openFrameworks (Section A)</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/10/20/intermediate-of-a/"/>
+   <updated>2012-10-20T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/10/20/intermediate-of-a</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;This is a 6 week workshop. Saturdays, noon-4pm, October 20-December
+  1st (Except November 10)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Have you been working with Processing or ActionScript, but need more
+performance to realize your interactive project? Are you a JavaScript
+hacker who’d like to add c++ to her arsenal of skills? If so, it’s
+probably time to make the jump to openFrameworks, an open source c++
+toolkit for creative coding. OpenFrameworks is not only a very
+powerful tool for creative coding, but a great way to enter the
+sometimes daunting world of c++. For just a few examples of the type
+of things that are possible with openFrameworks, check out the oF
+gallery here.&lt;/p&gt;
+
+&lt;p&gt;This &lt;strong&gt;6-week intensive&lt;/strong&gt; workshop is for coders who are already
+familiar with object oriented programming concepts, but would like to
+dive into openFrameworks. We will cover topics such as interfacing
+with web services, intermediate-level oF/openGL classes, common
+computer vision techniques, and working with addons. For a full list
+of topics covered, please see the agenda below.&lt;/p&gt;
+
+&lt;p&gt;Participants are encouraged (but not required) to come in with a
+specific idea for a project they’d like to do. Each week, we will work
+for 3 hours on covering new concepts, and then (time permitting) spend
+the last hour working on individual projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;A word about prerequisites:&lt;/em&gt; This is an intermediate level
+ workshop. You must be comfortable with object oriented programming
+ concepts to participate. If you aren’t sure whether you are ready to
+ take this workshop, please ask me. If you would like to take this
+ workshop but aren’t sure you meet the prerequisites, please contact
+ me and let me know. If there is enough interest, I will run a 3 week
+ “Introduction to Creative Coding with openFrameworks” workshop before
+ this one.&lt;/p&gt;
+
+&lt;h4 id=&quot;agenda-this-is-is-a-rough-outline-of-the-topics-that-we-will&quot;&gt;Agenda This is is a rough outline of the topics that we will&lt;/h4&gt;
+&lt;p&gt;cover in the workshop. I will try my best to get through every topic
+listed here. However, at Kitchen Table Coders we keep wokshop sizes
+very small so that we can personalize each one as much as possible. So
+it may change over the course of the class based on interest and skill
+level.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 1: Oct 20 - Introduction&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openFrameworks introduction&lt;/li&gt;
+  &lt;li&gt;basic drawing and colors&lt;/li&gt;
+  &lt;li&gt;ofImage vs ofTexture (what’s the difference?)&lt;/li&gt;
+  &lt;li&gt;using vectors in 2D and 3D space&lt;/li&gt;
+  &lt;li&gt;ofTrueTypeFont, ofDirectory&lt;/li&gt;
+  &lt;li&gt;ofVideoGrabber, ofVideoPlayer&lt;/li&gt;
+  &lt;li&gt;the dreaded pointer&lt;/li&gt;
+  &lt;li&gt;arrays&lt;/li&gt;
+  &lt;li&gt;the ‘new’ operator&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 2: Oct 27- openGL&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;matrix transformations&lt;/li&gt;
+  &lt;li&gt;ofMesh (ofVBO, ofVboMesh)&lt;/li&gt;
+  &lt;li&gt;ofCamera&lt;/li&gt;
+  &lt;li&gt;ofFbo&lt;/li&gt;
+  &lt;li&gt;ofShader&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 3: November 3 - Networking&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ofxOSC (for communicating between machines)&lt;/li&gt;
+  &lt;li&gt;ofURLFileLoader&lt;/li&gt;
+  &lt;li&gt;interfacing with web services (REST, JSON)&lt;/li&gt;
+  &lt;li&gt;Flickr, Twitter, YouTube&lt;/li&gt;
+  &lt;li&gt;basic regular expressions&lt;/li&gt;
+  &lt;li&gt;calling command line programs from within oF&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 4: November 17 - Computer Vision&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;sifting through pixels&lt;/li&gt;
+  &lt;li&gt;isolate a single color in video input&lt;/li&gt;
+  &lt;li&gt;background subtraction&lt;/li&gt;
+  &lt;li&gt;blob detection&lt;/li&gt;
+  &lt;li&gt;blob tracking&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 5: November 24: Box2D&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://vimeo.com/26747704&quot;&gt;Box2D&lt;/a&gt; is a powerful physics library that
+will allow you to have realistic-looking reactions and behaviors
+within your app. If you are interested in making a 2D game, this
+library is for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 6: December 1: Addons&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;finding addons&lt;/li&gt;
+  &lt;li&gt;using addons (I’ll take suggestions here)&lt;/li&gt;
+  &lt;li&gt;creating addons&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;about-kitchen-table-coders&quot;&gt;About Kitchen Table Coders:&lt;/h1&gt;
+
+&lt;p&gt;Hi, we’re David, Amit, Ted, Tims &amp;amp; Jeff. We design software &amp;amp; hardware
+for a living and share a studio in Brooklyn. We’re ever curious about
+new and old languages, as well as the people who shaped
+them. Sometimes we teach graduate courses, so we figured why not do
+informal workshops at our studio with like-minded folk.  Every week we
+host a workshop on a topic we’re passionate about. We keep it down to
+6 people because that’s how many fit around our kitchen table. There’s
+no projector. We just hang out for the day, and enjoy a collaborative
+learning experience.  Check out our previous workshops or more info!&lt;/p&gt;
+
+&lt;p&gt;For updates and news, follow us on twitter @ktcoders&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Intermediate Creative Coding with openFrameworks (Section B)</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/10/17/intermediate-of-b/"/>
+   <updated>2012-10-17T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/10/17/intermediate-of-b</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;This is a 6 week workshop. Wednesdays, 6pm-10pm, October 17-November
+  29 (Except November 21)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Have you been working with Processing or ActionScript, but need more
+performance to realize your interactive project? Are you a JavaScript
+hacker who’d like to add c++ to her arsenal of skills? If so, it’s
+probably time to make the jump to openFrameworks, an open source c++
+toolkit for creative coding. OpenFrameworks is not only a very
+powerful tool for creative coding, but a great way to enter the
+sometimes daunting world of c++. For just a few examples of the type
+of things that are possible with openFrameworks, check out the oF
+gallery here.&lt;/p&gt;
+
+&lt;p&gt;This &lt;strong&gt;6-week intensive&lt;/strong&gt; workshop is for coders who are already
+familiar with object oriented programming concepts, but would like to
+dive into openFrameworks. We will cover topics such as interfacing
+with web services, intermediate-level oF/openGL classes, common
+computer vision techniques, and working with addons. For a full list
+of topics covered, please see the agenda below.&lt;/p&gt;
+
+&lt;p&gt;Participants are encouraged (but not required) to come in with a
+specific idea for a project they’d like to do. Each week, we will work
+for 3 hours on covering new concepts, and then (time permitting) spend
+the last hour working on individual projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;A word about prerequisites:&lt;/em&gt; This is an intermediate level
+ workshop. You must be comfortable with object oriented programming
+ concepts to participate. If you aren’t sure whether you are ready to
+ take this workshop, please ask me. If you would like to take this
+ workshop but aren’t sure you meet the prerequisites, please contact
+ me and let me know. If there is enough interest, I will run a 3 week
+ “Introduction to Creative Coding with openFrameworks” workshop before
+ this one.&lt;/p&gt;
+
+&lt;h4 id=&quot;agenda-this-is-is-a-rough-outline-of-the-topics-that-we-will&quot;&gt;Agenda This is is a rough outline of the topics that we will&lt;/h4&gt;
+&lt;p&gt;cover in the workshop. I will try my best to get through every topic
+listed here. However, at Kitchen Table Coders we keep wokshop sizes
+very small so that we can personalize each one as much as possible. So
+it may change over the course of the class based on interest and skill
+level.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 1: Oct 17 - Introduction&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openFrameworks introduction&lt;/li&gt;
+  &lt;li&gt;basic drawing and colors&lt;/li&gt;
+  &lt;li&gt;ofImage vs ofTexture (what’s the difference?)&lt;/li&gt;
+  &lt;li&gt;using vectors in 2D and 3D space&lt;/li&gt;
+  &lt;li&gt;ofTrueTypeFont, ofDirectory&lt;/li&gt;
+  &lt;li&gt;ofVideoGrabber, ofVideoPlayer&lt;/li&gt;
+  &lt;li&gt;the dreaded pointer&lt;/li&gt;
+  &lt;li&gt;arrays&lt;/li&gt;
+  &lt;li&gt;the ‘new’ operator&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 2: Oct 24 - openGL&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;matrix transformations&lt;/li&gt;
+  &lt;li&gt;ofMesh (ofVBO, ofVboMesh)&lt;/li&gt;
+  &lt;li&gt;ofCamera&lt;/li&gt;
+  &lt;li&gt;ofFbo&lt;/li&gt;
+  &lt;li&gt;ofShader&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 3: October 31 - Networking&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ofxOSC (for communicating between machines)&lt;/li&gt;
+  &lt;li&gt;ofURLFileLoader&lt;/li&gt;
+  &lt;li&gt;interfacing with web services (REST, JSON)&lt;/li&gt;
+  &lt;li&gt;Flickr, Twitter, YouTube&lt;/li&gt;
+  &lt;li&gt;basic regular expressions&lt;/li&gt;
+  &lt;li&gt;calling command line programs from within oF&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 4: November 7 - Computer Vision&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;sifting through pixels&lt;/li&gt;
+  &lt;li&gt;isolate a single color in video input&lt;/li&gt;
+  &lt;li&gt;background subtraction&lt;/li&gt;
+  &lt;li&gt;blob detection&lt;/li&gt;
+  &lt;li&gt;blob tracking&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 5: November 14: Box2D&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://vimeo.com/26747704&quot;&gt;Box2D&lt;/a&gt; is a powerful physics library that
+will allow you to have realistic-looking reactions and behaviors
+within your app. If you are interested in making a 2D game, this
+library is for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 6: December 28: Addons&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;finding addons&lt;/li&gt;
+  &lt;li&gt;using addons (I’ll take suggestions here)&lt;/li&gt;
+  &lt;li&gt;creating addons&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;about-kitchen-table-coders&quot;&gt;About Kitchen Table Coders:&lt;/h1&gt;
+
+&lt;p&gt;Hi, we’re David, Amit, Ted, Tims &amp;amp; Jeff. We design software &amp;amp; hardware
+for a living and share a studio in Brooklyn. We’re ever curious about
+new and old languages, as well as the people who shaped
+them. Sometimes we teach graduate courses, so we figured why not do
+informal workshops at our studio with like-minded folk.  Every week we
+host a workshop on a topic we’re passionate about. We keep it down to
+6 people because that’s how many fit around our kitchen table. There’s
+no projector. We just hang out for the day, and enjoy a collaborative
+learning experience.  Check out our previous workshops or more info!&lt;/p&gt;
+
+&lt;p&gt;For updates and news, follow us on twitter @ktcoders&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Learn How To Code From an Artist</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/08/10/learn-how/"/>
+   <updated>2012-08-10T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/08/10/learn-how</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://kitchentablecoders.com/img/comp.jpg&quot; alt=&quot;picture Rhizome&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Computer programming is the designing and writing of source code for
+computer software; code is the building block for every piece of
+technology around us. A growing, coordinated effort to build “code
+literacy” has gained momentum in recent years with the launch of
+numerous local workshops and free online programs aimed to teach
+anyone any kind of programming language. All this activity has raised
+important questions concerning how we interact with our increasingly
+programmed world.&lt;/p&gt;
+
+&lt;p&gt;This August, Rhizome is pleased to host Kitchen Table Coders Presents:
+Learn to Code from an Artist. This is a two-part event: the first part
+is a panel discussion, the second is a workshop exploring the practice
+of teaching and utilizing code in an artistic context. The event will
+take place over the course of two days in the New Museum Theater.&lt;/p&gt;
+
+&lt;p&gt;In this first event, the Kitchen Table Coders will present their
+teaching philosophy and methodology, which emphasizes collaborative
+learning experiences by blurring the line between student and teacher,
+and will discuss the issues and trends in code and computer literacy
+in the arts with a panel of educators and artists in the
+field. Panelist include Amit Pitaru of Kitchen Table Coders; Jer
+Thorpe, artist and educator; Sonali Sridhar of Hacker School; and
+moderated by Douglas Rushkoff, educator and author of Program or Be
+Programmed: Ten Commands for a Digital Age&lt;/p&gt;
+
+&lt;p&gt;The following day, small Kitchen Table Coders-style workshops, hosted
+by artists working with code, will provide a gentle introduction to
+the basics of code and programming. Space is limited and seats are on
+a first-come, first-served basis.&lt;/p&gt;
+
+&lt;p&gt;The Kitchen Table Coders are Amit Pitaru, David Nolan, Jeff Crouse,
+and Ted Hayes - a group of professional programmers with a passion for
+knowledge sharing, began to host small workshops around a kitchen
+table in their Brooklyn studio space. Open to anyone interested in
+learning code, the Kitchen Table Coders keep their workshop classes
+small to create personalized and collaborative learning
+experiences. kitchentablecoders.com&lt;/p&gt;
+
+&lt;p&gt;Organized by Rhizome, the New Silent Series receives major support
+from The Rockefeller Foundation, and The Andy Warhol Foundation for
+the Visual Arts. Additional support is provided by the New York City
+Department of Cultural Affairs, and the New York State Council on the
+Arts.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://rhizome.org/events/kitchen-table-coders-panel/&quot;&gt;Full Details&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Functional Me</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/07/21/functional-me/"/>
+   <updated>2012-07-21T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/07/21/functional-me</id>
+   <content type="html">&lt;p&gt;With the ever growing popularity of JavaScript the term Functional
+Programming is rapidly becoming a household phrase. But what is
+Functional Programming exactly? Isn’t it just some mathematical
+silliness? Doesn’t it abandon the proven principles of
+Object Orientation?  Often our conceptions becomes clearer when we are
+given the opportunity to compare and contrast via direct
+manipulation. Thus we’ll explore the ideas behind Functional
+Programming using Clojure and Light Table.&lt;/p&gt;
+
+&lt;p&gt;We’ll end with a simple web application you can run on Heroku.&lt;/p&gt;
+
+&lt;p&gt;Prequisites: Intermediate programmer comfortable in at least one mainstream programming language.&lt;/p&gt;
+
+&lt;h1 id=&quot;about-kitchen-table-coders&quot;&gt;About Kitchen Table Coders:&lt;/h1&gt;
+
+&lt;p&gt;Hi, we’re David, Amit, Ted, Tims &amp;amp; Jeff. We design software &amp;amp; hardware for a living and share a studio in Brooklyn. We’re ever curious about new and old languages, as well as the people who shaped them. Sometimes we teach graduate courses, so we figured why not do informal workshops at our studio with like-minded folk.
+Every week we host a workshop on a topic we’re passionate about. We keep it down to 6 people because that’s how many fit around our kitchen table. There’s no projector. We just hang out for the day, and enjoy a collaborative learning experience.
+Check out our previous workshops or more info!&lt;/p&gt;
+
+&lt;p&gt;For updates and news, follow us on twitter @ktcoders&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Prose.io Test</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/06/27/prose-io-test/"/>
+   <updated>2012-06-27T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/06/27/prose-io-test</id>
+   <content type="html">&lt;h1 id=&quot;proseio-test&quot;&gt;Prose.io Test&lt;/h1&gt;
+
+&lt;p&gt;This is a test of Prose.io’s Jekyll editor.  Nifty!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Fundamentals of Web Applications</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/06/27/fundamentals/"/>
+   <updated>2012-06-27T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/06/27/fundamentals</id>
+   <content type="html">&lt;p&gt;With Tedb0t&lt;/p&gt;
+
+&lt;p&gt;You’ve dabbled with web pages and static web sites.  You’ve uploaded
+files with FTP and maybe configured Apache, perhaps written a PHP
+script or two.  But, you wonder, how do modern web applications work?
+What concepts underlie the plethora of web app frameworks like Rails
+and Django and Tornado, and how do we navigate their many options?&lt;/p&gt;
+
+&lt;p&gt;This workshop will cover the foundational concepts that give rise to
+all web applications, regardless of language and framework, from the
+ground up: what is a server, really - and for that matter, what is a web
+application?  How do databases integrate into my app, and how do I
+deploy it to the world?  How do networks of computers communicate,
+process and display the information that comprise the Facebooks,
+Gmails and Pinterests of the world?  No matter how you program them,
+they all “REST”* on the same core ideas.&lt;/p&gt;
+
+&lt;p&gt;We’ll walk through a simple example application in Python and deploy
+it, live, to Heroku (a fast and easy way to get your app online).
+Programming and terminal experience is recommended, but even without
+it, you will become familiarized with the foundations of web
+application development and leave the class with a working site that
+you can grow and modify.&lt;/p&gt;
+
+&lt;p&gt;*A pun that you’ll get if you attend this class!&lt;/p&gt;
+
+&lt;h1 id=&quot;about-kitchen-table-coders&quot;&gt;About Kitchen Table Coders:&lt;/h1&gt;
+
+&lt;p&gt;Hi, we’re David, Amit, Ted, Tims &amp;amp; Jeff. We design software &amp;amp; hardware
+for a living and share a studio in Brooklyn. We’re ever curious about
+new and old languages, as well as the people who shaped
+them. Sometimes we teach graduate courses, so we figured why not do
+informal workshops at our studio with like-minded folk.  Every week we
+host a workshop on a topic we’re passionate about. We keep it down to
+6 people because that’s how many fit around our kitchen table. There’s
+no projector. We just hang out for the day, and enjoy a collaborative
+learning experience.  Check out our previous workshops or more info!&lt;/p&gt;
+
+&lt;p&gt;For updates and news, follow us on twitter @ktcoders&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Kinect Workshop (with OpenFrameworks 0071)</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/06/16/001-kinect-workshop-w-of071/"/>
+   <updated>2012-06-16T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/06/16/001-kinect-workshop-w-of071</id>
+   <content type="html">&lt;p&gt;Instructor: Jeff Crouse &lt;a href=&quot;http://www.jeffcrouse.info&quot;&gt;www.jeffcrouse.info&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This workshop will provide an introduction to creating interactive software with the Kinect, a $140 consumer depth+RGB camera that provides some of the same functionality as professional hardware that can cost many times more.  We will learn skeleton tracking, player masking, and accessing depth measurements. These techniques allow us to create simple apps that make use of whole-body interaction.&lt;/p&gt;
+
+&lt;p&gt;We will use the newly released Microsoft Kinect SDK Version 1.5 to access the device, openFrameworks 0071 to create the apps, and the ofxKinectNui addon as the bridge between the two.&lt;/p&gt;
+
+&lt;p&gt;Kinect cameras will be provided if you do not have your own.  I will distribute the addon and some sample apps at the beginning of the workshop.&lt;/p&gt;
+
+&lt;p&gt;Requirements:
+A basic understanding of openFrameworks
+A computer that meets the minimum system requirements here: &lt;a href=&quot;http://www.microsoft.com/en-us/kinectforwindows/develop/readme.htm#System&quot;&gt;http://www.microsoft.com/en-us/kinectforwindows/develop/readme.htm#System&lt;/a&gt; 
+Note: a Macbook running Bootcamp+Windows 7 works well
+Download and install the latest Kinect SDK here: &lt;a href=&quot;http://www.microsoft.com/en-us/kinectforwindows/develop/developer-downloads.aspx&quot;&gt;http://www.microsoft.com/en-us/kinectforwindows/develop/developer-downloads.aspx&lt;/a&gt; 
+Download and install openFramworks 0071 for Visual Studio as described here: &lt;a href=&quot;http://www.openframeworks.cc/setup/vs-2010/&quot;&gt;http://www.openframeworks.cc/setup/vs-2010/&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Intro to coding data visualization tools with Processing</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/05/26/001-dataviz-processing-intro/"/>
+   <updated>2012-05-26T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/05/26/001-dataviz-processing-intro</id>
+   <content type="html">&lt;p&gt;With Amit Pitaru (http://pitaru.com , http://sws.cc , http://rhondaforever.com, htto://plantly.com)&lt;/p&gt;
+
+&lt;p&gt;A gentle introduction to the very fundamentals of coding, tailored espeially for data visualization poeple. We’ll examine how to load a data file into Processing, parse it into visual elements, and create a simple interface to explore its story.&lt;/p&gt;
+
+&lt;p&gt;We’ll be using the http://processing.org platform, so please download the latest version from the site (http://processing.org/download)&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Art Without Object</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/05/19/001-art-without-object/"/>
+   <updated>2012-05-19T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/05/19/001-art-without-object</id>
+   <content type="html">&lt;p&gt;With Tims Gardner&lt;/p&gt;
+
+&lt;p&gt;This class is about making expressive user interfaces and graphics without any object-oriented malarky getting in the way. Dynamic functional programming abandons the usual rigid, pre-compiled, sprawling class hierarchies of statically typed, syntactically baroque imperative code. In doing so, it approaches the expressivity of mathematics or poetry.&lt;/p&gt;
+
+&lt;p&gt;We’ll see how to implement functional display lists; event listeners; particle systems; matrix mathematics; 3D graphics; physics simulations; and animations, all in a fraction of the code, a fraction of the time, and a massive multiple of the elegance associated with their object-oriented counterparts. When we wash our hands of incidental complexity, we can finally address our ideas on their own terms.&lt;/p&gt;
+
+&lt;p&gt;This class is intended for people bored or frustrated with the creative potential of mainstream languages. We’ll be using Clojure’s Quil library. No prior experience of Clojure, functional programming, or Lisp is required.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Arduino and NodeJS</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/05/05/001-arduino-nodejs/"/>
+   <updated>2012-05-05T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/05/05/001-arduino-nodejs</id>
+   <content type="html">&lt;p&gt;Node.js and Arduino give creative developers the ability to quickly
+prototype and create real-time multi-user experiences.&lt;/p&gt;
+
+&lt;p&gt;In this workshop we’ll build a basic Node.js server on our laptops and
+use WebSockets to build a simple realtime multiuser graphical
+environment in a web browser. But we won’t stop there - we’ll show you
+how to hook up sensors and electronics to create physical controls for
+multiplayer Pong!&lt;/p&gt;
+
+&lt;p&gt;This workshop assumes you have basic familiarity with at least one
+programming language.&lt;/p&gt;
+
+&lt;p&gt;In order to allow us more time to code, we kindly ask that you arrive
+with Node.js installed on your laptop (you’ll need to be running a
+local server). You can find installers for your operating system here,
+http://nodejs.org/#download&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Kitchen Table GO</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/04/26/001-go/"/>
+   <updated>2012-04-26T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/04/26/001-go</id>
+   <content type="html">&lt;p&gt;Kitchen Table Go&lt;/p&gt;
+
+&lt;p&gt;Come join us in our Brooklyn studio for a relaxed evening of learning how to play Go - the ancient board game. Between games we often chat about whatever suits our fancy from programming languages to logic, art, music and more. No experience in any of the above required :)&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>P-Comp The Missing Parts</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/03/17/001-missing-bits/"/>
+   <updated>2012-03-17T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/03/17/001-missing-bits</id>
+   <content type="html">&lt;p&gt;You’ve built projects with Arduino, wired up LEDs, made servos move.  But what really lies behind it all how do all those electrons get pushed around and make your ideas come alive?  We’ll discuss what electricity is and the basics of its application from resistors &amp;amp; capacitors to digital signaling.  It’s the missing parts of Physical Computing: the tools to understand why your LEDs need resistors, how to troubleshoot your electronic projects, and how to build analog circuits that don’t need an Arduino at all!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Live Coding with Processing and Clojure</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/03/10/001-clj-processing/"/>
+   <updated>2012-03-10T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/03/10/001-clj-processing</id>
+   <content type="html">&lt;p&gt;Waiting for your code to compile sucks why not write code and change your program while it’s running?  The quick feedback of live coding is an enormous boon to learning and creating, and we’ll explore some ways of doing so by writing live Processing sketches in a new programming language called Clojure that works on some old and important ideas.  We’ll also talk about live coding parallels in dataflow environments such as PureData, their implications on artistic expression and performance, and learn how to create generative visual works with clean, elegant code.&lt;/p&gt;
+
+&lt;p&gt;No previous programming knowledge required only an open mind and quick fingers.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Wireless Projects with XBee and Wifi</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/03/03/001-wifi/"/>
+   <updated>2012-03-03T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/03/03/001-wifi</id>
+   <content type="html">&lt;p&gt;How do we get our projects to talk to the Internet and to each other?  This workshop will show you how to use XBee and WiFi wireless modules to network your electronics and let them interact with the world.  Sense data and send it to a website, use a networked joystick to play pong over the internet, or create an internet-enabled light switch, or anything else you can dream of!&lt;/p&gt;
+
+&lt;p&gt;We’ll explore what mesh networks are and can do for you, and how to send and receive internet data with an Arduino and similar devices.  No previous experience required, but basic Arduino knowledge recommended.  Parts not required, but I will have some to sell, and you are welcome to bring your own boards and modules.  We’ll be using the XBee ZB, USB Explorer and Roving Networks WiFly modules as well as an Arduino.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Writing Process</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/02/25/001-LISP/"/>
+   <updated>2012-02-25T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/02/25/001-LISP</id>
+   <content type="html">&lt;p&gt;The construction of computer programs represents an entirely new
+form of writing. While we must sacrifice much of the linguistic
+ambiguity found in traditional writing, we still somehow have to
+create dynamic and flexible processes. In this experimental workshop
+we will consider our craft from a variety of novel angles - one
+radical approach we will take is using Clojure as the shared
+language of understanding. By using an unfamiliar languge we can
+drive at the essence of our art - the design of processes. But don’t
+come thinking you’ll learn about the ins and outs of Clojure - in
+the tradition of The Little Schemer we’ll be using the most minimal
+subset of the language necessary in order to focus on the
+process of writing processes.&lt;/p&gt;
+
+&lt;p&gt;This workshop is free and seating is limited. Bring your laptop and
+bring an open mind. The workshop will be extremely discussion
+oriented and you are expected to lead the conversation just as much
+as we do. The workshop is designed for intermediate to advanced
+programmers.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Node.js + Arduino!</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/02/18/001-NodeJS/"/>
+   <updated>2012-02-18T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/02/18/001-NodeJS</id>
+   <content type="html">&lt;p&gt;Node.js gives creative developers the ability to quickly prototype and
+create real-time multi-user experiences.&lt;/p&gt;
+
+&lt;p&gt;In this workshop we’ll build a basic Node.js server on our laptops and
+use WebSockets to build a simple realtime multiuser graphical
+environment in a web browser. However we won’t stop there, we’ll show
+you how to hook up sensors and electronics to create physical controls
+for multiplayer Pong!&lt;/p&gt;
+
+&lt;p&gt;In order to allow us more time to code, we kindly ask that you arrive
+with Node.js installed on your laptop (you’ll need to be running a
+local server). You can find installers for your operating system here,
+&lt;a href=&quot;http://nodejs.org/#download&quot;&gt;http://nodejs.org/#download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Prerequisites:&lt;/em&gt; This workshop assumes you have basic familiarity with at least one
+programming language.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Kitchen Table Go</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/02/02/001-GoGame/"/>
+   <updated>2012-02-02T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/02/02/001-GoGame</id>
+   <content type="html">&lt;p&gt;Come join us in our Brooklyn studio for a relaxed evening of learning how to play Go - the ancient board game. Between games we often chat about whatever suits our fancy from programming languages to logic, art, music and more. No experience in any of the above required :)&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Creative Coding for Designers, using Processing</title>
+   <link href="http://kitchentablecoders.github.com/class/2012/01/29/001-processing/"/>
+   <updated>2012-01-29T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2012/01/29/001-processing</id>
+   <content type="html">&lt;p&gt;A gentle introduction to the very fundamentals of coding, tailored espeially for designers. We’ll be using the http://processing.org platform, so please download the latest version from the site (http://processing.org/download)&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Node.js + Pong!</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/12/11/001-NodeJS/"/>
+   <updated>2011-12-11T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/12/11/001-NodeJS</id>
+   <content type="html">&lt;p&gt;Node.js gives creative developers the ability to quickly prototype and
+create real-time multi-user experiences.&lt;/p&gt;
+
+&lt;p&gt;In this workshop we’ll build a basic Node.js server on our laptops and
+use WebSockets to build a simple realtime multiuser graphical
+environment in a web browser. However we won’t stop there, we’ll show
+you how to hook up sensors and electronics to create physical controls
+for multiplayer Pong!&lt;/p&gt;
+
+&lt;p&gt;In order to allow us more time to code, we kindly ask that you arrive
+with Node.js installed on your laptop (you’ll need to be running a
+local server). You can find installers for your operating system here,
+&lt;a href=&quot;http://nodejs.org/#download&quot;&gt;http://nodejs.org/#download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Prerequisites:&lt;/em&gt; This workshop assumes you have basic familiarity with
+at least one programming language.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Fun Functional JavaScript</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/12/03/001-functJS/"/>
+   <updated>2011-12-03T00:00:00-05:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/12/03/001-functJS</id>
+   <content type="html">&lt;p&gt;Once maligned by nearly everyone, JavaScript has now amassed an
+incredible number of devoted fans and practitioners. And why not?
+JavaScript is the at the heart of where the web is going and projects
+like Node.js are determined to expand JavaScript beyond clients.&lt;/p&gt;
+
+&lt;p&gt;One fascinating side-effect of JavaScript’s popularity is that
+functional programming concepts, previously academic curiosities, are
+now going mainstream. This class explores the idea of first class
+functions, closures, map, reduce, filter, and a whole host of other
+incredibly useful tricks from the perspective of JavaScript. If you
+think objects are fun, you’ll leave this class with a whole new set of
+approaches to consider in your projects.&lt;/p&gt;
+
+&lt;p&gt;This class is intended for people who have intermediate to advanced
+experienced in at least one other programming language.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Prerequisites:&lt;/em&gt; Web browser.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>An Intro to the Kinect for Skeleton Tracking</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/11/05/001-Kinect/"/>
+   <updated>2011-11-05T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/11/05/001-Kinect</id>
+   <content type="html">&lt;p&gt;Get up and running building creative application in Processing that use the Microsoft Kinect depth camera to track users.&lt;/p&gt;
+
+&lt;p&gt;Goals:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Learn the history of the Kinect and the principles behind how it works as a depth camera&lt;/li&gt;
+  &lt;li&gt;Survey the landscape of tools, drivers, and frameworks that are available for working with the Kinect and doing skeleton tracking based on its data&lt;/li&gt;
+  &lt;li&gt;Install the software necessary to work with the skeleton data in Processing&lt;/li&gt;
+  &lt;li&gt;Understand the calibration process, how it works, and why it’s necessary&lt;/li&gt;
+  &lt;li&gt;Learn how to access user joint positions&lt;/li&gt;
+  &lt;li&gt;Understand the difference between real world and screen coordinate systems and how to translate between the two&lt;/li&gt;
+  &lt;li&gt;Learn the basics of vector math required to measure joint position and relative distance&lt;/li&gt;
+  &lt;li&gt;Explore tools for using joint position and relative distance in user interfaces and creative tools&lt;/li&gt;
+  &lt;li&gt;Have a conversation about the possibilities, limitations, and meaning of this kind of interaction&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pre-requisites:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Beginner level graphical programming knowledge&lt;/li&gt;
+  &lt;li&gt;Basic familiarity with Processing or other similar creative coding frameworks (class will be taught in Processing)&lt;/li&gt;
+  &lt;li&gt;Bring a Kinect (a few will be on hand to borrow, but you’ll get more out of it if you bring your own)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>An Introduction to LISP</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/10/29/001-LISP/"/>
+   <updated>2011-10-29T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/10/29/001-LISP</id>
+   <content type="html">&lt;p&gt;“Lisp isn’t a language, it’s a building material.” - Alan Kay&lt;/p&gt;
+
+&lt;p&gt;There is a programming languages renaissance of sorts happening. This
+current flurry of activity has inspired some folks to revisit old
+ideas. One such idea is Lisp. Concieved by John McCarthy in 1957 to
+explore artificial intelligence, Lisp has survived in various
+incarnations while other languages have long since disappeared.&lt;/p&gt;
+
+&lt;p&gt;One of the main reasons Lisp has survived 50+ years is that the notion
+of evolution is fundamental to the design of language. Lisp is
+homoiconic - code is data and data is code, allowing Lisp to be used for
+metaprogramming. Thus Lisp can “grow” while other language die off as
+new paradigms and approaches displace old ones.&lt;/p&gt;
+
+&lt;p&gt;In this workshop we’ll take a whirlwind tour of the history - Lisp’s
+rise in the AI community and its long dormancy after AI winter. We’ll
+get our hands dirty with a popular modern dialect Clojure, but expect
+a taste of Common Lisp and Racket (a Scheme dialect) as well.&lt;/p&gt;
+
+&lt;p&gt;Expect to be rigorously challenged - this class is intended for the
+advanced programmer or the overly enthusiastic intermediate
+programmer.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Intro to Objective-C</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/10/22/001-ObjC/"/>
+   <updated>2011-10-22T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/10/22/001-ObjC</id>
+   <content type="html">&lt;p&gt;In order to understand iOS development it’s critical to have a good foundation. A good foundation means examining the design philosophy behind the programming language at the heart of Apple’s technologies - Objective-C. In this workshop we’ll study two of the most influential programming languages of all time C and Smalltalk - the unlikely pairing that produced Objective-C. We’ll then talk about how to design programs in Objective-C. Expect to learn a good deal about the essence of C programming as well the beauty of messaging based Object Oriented Programming.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Prerequisites:&lt;/em&gt; Familiarity with at least one programming language, XCode.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Designing Sound with PureData w/ Ted Hayes</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/10/16/001-pd/"/>
+   <updated>2011-10-16T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/10/16/001-pd</id>
+   <content type="html">&lt;p&gt;Bored with your existing instruments?  Can’t figure out how to get just the right sound you’re looking for?  Ever wanted to build your own virtual instruments from scratch, or make a physical interface for your music?&lt;/p&gt;
+
+&lt;p&gt;PureData is a free, open-source tool for making noise that encourages experimentation and rapid prototyping, and it’s fun, too!  I’ll walk you through the basics of both PureData and sound itself to enable you to explore a whole new field of sonic possibilities.  No programming knowledge required!&lt;/p&gt;
+
+&lt;p&gt;In order to allow us more time to code, we kindly ask that you have PureData installed on your laptop. You can download the software from &lt;a href=&quot;http://puredata.info/community/projects/software&quot;&gt;http://puredata.info/community/projects/software&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Designing Sound with PureData w/ Ted Hayes and Amit Pitaru</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/09/24/001-pd/"/>
+   <updated>2011-09-24T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/09/24/001-pd</id>
+   <content type="html">&lt;p&gt;Bored with your existing instruments?  Can’t figure out how to get just the right sound you’re looking for?  Ever wanted to build your own virtual instruments from scratch?&lt;/p&gt;
+
+&lt;p&gt;PureData is a free, open-source tool for making noise that encourages experimentation and rapid prototyping, and it’s fun, too!  I’ll walk you through the basics of both PureData and sound itself to enable you to explore a whole new field of sonic possibilities.&lt;/p&gt;
+
+&lt;p&gt;In order to allow us more time to code, we kindly ask that you have PureData installed on your laptop. You can download the software from &lt;a href=&quot;http://puredata.info/community/projects/software&quot;&gt;http://puredata.info/community/projects/software&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>PONG (JavaScript, OpenFrameworks)</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/09/17/001-PONG/"/>
+   <updated>2011-09-17T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/09/17/001-PONG</id>
+   <content type="html">&lt;p&gt;This saturday we’ll be doing a very special workshop on … PONG!&lt;/p&gt;
+
+&lt;p&gt;We’ll spend the afteroon building a pong game from scratch in
+Javascript (via ProcessingJS), and discussing the very basic of coding
+and game design while at it.&lt;/p&gt;
+
+&lt;p&gt;This is a great opportunity to brush up on some basic coding,
+interactive concepts, and learn a bit of game-tuning while at it.&lt;/p&gt;
+
+&lt;p&gt;Towards the end of the class, we’ll take a look at how a multitouch
+version of the code can be implemented on mobile devices using
+OpenFrameworks.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Online Multiuser Environments With Node.js</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/09/03/001-OnlineNodejs/"/>
+   <updated>2011-09-03T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/09/03/001-OnlineNodejs</id>
+   <content type="html">&lt;p&gt;Node.js is a young yet promising project for writing server-side
+JavaScript. In this workshop we’ll build a basic Node.js server on our
+laptops and use WebSockets to build a simple realtime multiuser
+graphical environment.&lt;/p&gt;
+
+&lt;p&gt;As Node.js lends itself particularly well to a functional style of
+programming, we’ll take the opportunity to introduce basic functional
+programming. Finally, we’ll discuss some of the unique advantages of
+the NodeJS event-based model as well as its current limitations.&lt;/p&gt;
+
+&lt;p&gt;This workshop assumes you have basic familiarity with at least one
+programming language.&lt;/p&gt;
+
+&lt;p&gt;In order to allow us more time to code, we kindly ask that you have
+Node.js installed on your laptop (you’ll need to be running a local
+server). On OSX, you can download this install package and just
+double-click to install:&lt;a href=&quot;https://sites.google.com/site/nodejsmacosx/&quot;&gt;https://sites.google.com/site/nodejsmacosx/&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CoffeeScript and You</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/08/20/001-CoffeeScript/"/>
+   <updated>2011-08-20T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/08/20/001-CoffeeScript</id>
+   <content type="html">&lt;p&gt;For a programming language less than two years old, CoffeeScript has
+created a lot of buzz and deservedly so. CoffeeScript takes some of
+the best ideas from languages like Ruby and Python, adds its own
+flairs, and yet stays true to the soul JavaScript. In this class we’ll
+cover the essence of CoffeeScript as well as how to leverage it for
+client-side development and basic server-side development with
+Node.js. This class assumes intermediate experience with at least one
+other object oriented programming language.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Prerequisites:&lt;/em&gt; Web browser.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Fun Functional JavaScript</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/08/13/001-functJS/"/>
+   <updated>2011-08-13T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/08/13/001-functJS</id>
+   <content type="html">&lt;p&gt;Once maligned by nearly everyone, JavaScript has now amassed an
+incredible number of devoted fans and practitioners. And why not?
+JavaScript is the at the heart of where the web is going and projects
+like Node.js are determined to expand JavaScript beyond clients.&lt;/p&gt;
+
+&lt;p&gt;One fascinating side-effect of JavaScript’s popularity is that
+functional programming concepts, previously academic curiosities, are
+now going mainstream. This class explores the idea of first class
+functions, closures, map, reduce, filter, and a whole host of other
+incredibly useful tricks from the perspective of JavaScript. If you
+think objects are fun, you’ll leave this class with a whole new set of
+approaches to consider in your projects.&lt;/p&gt;
+
+&lt;p&gt;This class is intended for people who have intermediate to advanced
+experienced in at least one other programming language.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Prerequisites:&lt;/em&gt; Web browser.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Intro to Android with special guest Guy Hoffman (MIT)</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/07/30/001-androidMIT/"/>
+   <updated>2011-07-30T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/07/30/001-androidMIT</id>
+   <content type="html">&lt;p&gt;We have a very special guest hanging at the studio this week - Guy Hoffman - MIT Alum, amazing technologist+musician+artist (&lt;a href=&quot;http://web.media.mit.edu/~guy/&quot;&gt;http://web.media.mit.edu/~guy/&lt;/a&gt;), and the creator of the popular android C25K app (&lt;a href=&quot;https://sites.google.com/site/c25kapp/&quot;&gt;https://sites.google.com/site/c25kapp/&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;He’s agreed to do a ‘Getting started with Android’ workshop this Saturday. Basically how to set up your OSX to develop and deploy android apps, and a few hello-worlds.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Prerequisites:&lt;/em&gt; Web browser.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Intro to Creative Programming with Javascript and HTML 5 Canvas</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/07/23/001-JSHTML5/"/>
+   <updated>2011-07-23T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/07/23/001-JSHTML5</id>
+   <content type="html">&lt;p&gt;What is a variable? What is a for loop? What are functions? What are arrays? This introduction to programming will guide you through these concepts using one of the most interesting and prevalent programming languages today - JavaScript.&lt;/p&gt;
+
+&lt;p&gt;By writing simple graphics programs with the HTML5 Canvas tag, we’ll learn about some of the most essential aspects of the craft of programming while maintaining a creative mindset.&lt;/p&gt;
+
+&lt;p&gt;No experience is required - just bring your laptop and make sure you’re running a modern browser (Safari 5, Firefox 3+, Google Chrome, Internet Explorer 9). We’ll provide you with a simple HTML file for our experiments.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Prerequisites:&lt;/em&gt; Web browser.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>iOS with OpenFrameworks; Combining OpenGL and Apple's Native UI</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/07/09/01-iOS_OF/"/>
+   <updated>2011-07-09T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/07/09/01-iOS_OF</id>
+   <content type="html">&lt;p&gt;This week we’ll take a closer look at how we can integrate XCode’s
+Interface Builder with OpenFrameworks apps, and take advantage of
+Apple’s native UI elements in our creative apps.&lt;/p&gt;
+
+&lt;p&gt;You should come with basic experience in writing OpenFramework
+Applications, and preferably - at least one successful attempt to run
+OF on your iPhone/iPad. A bit experience with Objective-C can be
+helpful but not crucial (we’ll cover some of it ourselves).&lt;/p&gt;
+
+&lt;p&gt;Please have XCode 3.2 (preferred) or 4.0 installed on your machine, as
+well as the iOS SDK. If you’d like to test your app on the device,
+you’ll need to obtain the $100 developer license from Apple. Otherwise
+you’ll still be able to compile the app to the simulator, but not the
+device.&lt;/p&gt;
+
+&lt;p&gt;Lastly, please be sure to download the iPhone OpenFrameworks release:
+http://www.openframeworks.cc/versions/preRelease_v0.062/of_preRelease_v0062_iphone_FAT.zip
+(Save As)&lt;/p&gt;
+
+&lt;p&gt;More on OpenFrameworks can be found here: http://www.openframeworks.cc&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Prerequisites:&lt;/em&gt; Web browser.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Intro to Creative Coding with OpenFrameworks</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/05/22/001-OF/"/>
+   <updated>2011-05-22T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/05/22/001-OF</id>
+   <content type="html">&lt;p&gt;We’ll spend Sunday afternoon building our own drawing software with
+OpenFrameworks.&lt;/p&gt;
+
+&lt;p&gt;The first part of the day will be dedicated to a bit of C++
+foundation. We’ll touch on the basic and relevant aspects of C++ that
+can serve us well for creative prototyping.&lt;/p&gt;
+
+&lt;p&gt;Next, we’ll start coding a simple drawing program and get familiar
+OF’s drawing API and Mouse/Key events. We’ll slowly expand our
+programs to include more of what OF has to offer.&lt;/p&gt;
+
+&lt;p&gt;More on OpenFrameworks can be found here: &lt;a href=&quot;http://www.openframeworks.cc&quot;&gt;www.openframeworks.cc&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Intro to Objective-C</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/05/14/001-ObjC/"/>
+   <updated>2011-05-14T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/05/14/001-ObjC</id>
+   <content type="html">&lt;p&gt;In order to understand iOS development it’s critical to have a good foundation. A good foundation means examining the design philosophy behind the programming language at the heart of Apple’s technologies - Objective-C. In this workshop we’ll study two of the most influential programming languages of all time C and Smalltalk - the unlikely pairing that produced Objective-C. We’ll then talk about how to design programs in Objective-C. Expect to learn a good deal about the essence of C programming as well the beauty of messaging based Object Oriented Programming.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Prerequisites:&lt;/em&gt; Familiarity with at least one programming language, XCode.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Intro to GLSL (OpenGL + Shaders) using OpenFrameworks w/Special Guest Zach Lieberman</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/05/07/001-leiberman/"/>
+   <updated>2011-05-07T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/05/07/001-leiberman</id>
+   <content type="html">&lt;p&gt;This workshop gives an introduction to modern opengl mechanics, focusing on new parts of opengl such as the frame and vertex buffer objects, and more specifically on GLSL / shader programming, it’s history and mechanics.  In order to fully understand these system, we will take a step back and wrap our heads around the opengl pipeline, and how vertex, fragment and geometry shaders open that up to powerful creative manipulation.     The workshop will be taught using the new branch of openframeworks (007), and we will look at tools for experimenting on, developing, debugging and sharing shaders.   By the end, hopefully opening up a new avenue of creative play and experimentation.&lt;/p&gt;
+
+&lt;p&gt;Participants should have basic familiarity with openframeworks or opengl. Participants should also have a laptop with a modern / decent graphics card so they can experiment with these techniques – for example, integrated intel graphics cards might prove problematic.&lt;/p&gt;
+
+&lt;p&gt;~&lt;/p&gt;
+
+&lt;p&gt;This workshop is part of a weekly seriese of workshops that we run at our Kitchen Table in Brooklyn. Here’s a list of previous workshops, and where we’ll be posting new ones:  &lt;a href=&quot;http://kitchentable.eventbrite.com&quot;&gt;http://kitchentable.eventbrite.com&lt;/a&gt; 
+This week we’re happy to post Zach Lieberman. Read all about him here: &lt;a href=&quot;http://thesystemis.com/&quot;&gt;http://thesystemis.com/&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Introduction to Node.js (and a taste of functional programming)</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/04/30/001-NodeJS/"/>
+   <updated>2011-04-30T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/04/30/001-NodeJS</id>
+   <content type="html">&lt;p&gt;Node.js is a young yet promising project for writing server-side JavaScript. In this workshop we’ll build a basic Node.js server on our laptops and use WebSockets to build a simple realtime multiuser graphical environment.&lt;/p&gt;
+
+&lt;p&gt;As Node.js lends itself particularly well to a functional style of programming, we’ll take the opportunity to introduce basic functional programming. Finally, we’ll discuss some of the unique advantages of the NodeJS event-based model as well as its current limitations.&lt;/p&gt;
+
+&lt;p&gt;This workshop assumes you have basic familiarity with Javascript, as well as a server-side language (PHP, for example).&lt;/p&gt;
+
+&lt;p&gt;In order to allow us more time to code, we kindly ask that you have Node.js installed on your laptop (you’ll need to be running a local server). On OSX, you can download this install package and just double-click to install: &lt;a href=&quot;https://sites.google.com/site/nodejsmacosx/&quot;&gt;https://sites.google.com/site/nodejsmacosx/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Still, If you can, we recommend using the Git methond mentioned on this official installation page:  &lt;a href=&quot;https://github.com/joyent/node/wiki/Installation&quot;&gt;https://github.com/joyent/node/wiki/Installation&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Introduction to Programming - Javascript and HTML 5 Canvas</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/04/23/001-introJS-HTML5/"/>
+   <updated>2011-04-23T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/04/23/001-introJS-HTML5</id>
+   <content type="html">&lt;p&gt;What is a variable? What is a for loop? What are functions? What are arrays? This introduction to programming will guide you through these concepts using one of the most important programming languages today - JavaScript. By writing simple graphics programs with the HTML5 Canvas tag, we’ll learn about some of the most essential aspects of the craft of programming while having fun at the same time. No experience is required - just bring your laptop and make sure you’re running a modern browser (Safari 5, Firefox 3+, Google Chrome, Internet Explorer 9). We’ll provide you with a simple HTML file for our experiments.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Basics of Creative Coding, using Processing</title>
+   <link href="http://kitchentablecoders.github.com/class/2011/04/16/001-basics/"/>
+   <updated>2011-04-16T00:00:00-04:00</updated>
+   <id>http://kitchentablecoders.github.com/class/2011/04/16/001-basics</id>
+   <content type="html">&lt;p&gt;This Saturday (April 16th) at 1-6PM David Nolen and Amit Pitaru will be doing a free workshop at our Brooklyn Studio.
+We’ll start with ‘what’s a variable and why does it exist’, and work our way up to our first drawing program.&lt;/p&gt;
+
+&lt;p&gt;It’ll be just 5 of us, spending the day around the kitchen tabel at our Brooklyn Studio.
+This session is a test run for a series of paid workshops that David Nolan and I are planning in the upcoming weeks. Each day-long session Will cover creative coding in Processing, OpenFrameworks, JavaScript, iOS, as well as game-design, audio-visual, and functional programmig techniques (Lisp/Haskel/Closure). We’re also open to other topics if there’s damand. The common thread is that we’ll be placig special emhpasis on enjoying the craft and staying creative through-out the learning process.
+Hope to see you saturday.&lt;/p&gt;
+
+&lt;p&gt;Amit&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
