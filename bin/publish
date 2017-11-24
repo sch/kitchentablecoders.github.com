@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# script/publish: Build a version of the site to the "gh-pages" branch for
+#                 (free!) hosting on github.
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+bundle check --path vendor/gems >/dev/null 2>&1  || {
+  echo "==> Installing gem dependencies"
+  bundle install --path vendor/gems --quiet --without production
+}
+
+bundle exec jekyll build
+
+TEMPORARY_DIRECTORY=`mktemp -d`
+cp -r _site/. $TEMPORARY_DIRECTORY
+rm $TEMPORARY_DIRECTORY/CNAME
+cd $TEMPORARY_DIRECTORY
+
+git init
+git add .
+git commit -m "Build commit"
+git remote add origin git@github.com:sch/kitchentablecoders.github.com.git
+git push origin HEAD:gh-pages --force
+

@@ -35,11 +35,12 @@ body {
   background-color: #222;
   color: white;
   padding: 20px;
+  overflow: auto;
 
   address {
     font-style: normal;
     color: #999;
-    margin: 0;
+    margin: 40px 0 0;
   }
 
   @media screen and (min-width: $shelf-breakpoint) {
@@ -77,6 +78,7 @@ body {
 
   a {
     color: $color-accent;
+    text-decoration: underline;
   }
 
   p {
@@ -137,6 +139,7 @@ body {
   display: inline-block;
   line-height: 1.33333333333333333333;
   text-align: center;
+  text-decoration: none !important;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.15);
   transition: background-color 0.2s, box-shadow 0.2s ease, text-shadow 0.2s;
   padding: 0.4em 0.6em 0.4em 0.7em;
@@ -166,5 +169,4 @@ body {
 
 .signup-button {
   float: right;
-  // margin-top: 1em;
 }

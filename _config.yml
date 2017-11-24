@@ -1,15 +1,30 @@
-# MUST EDIT BELOW
 sitename: Kitchen Table Coders
 tagline: Workshops on the craft of creative coding in all its forms
+
 url: http://kitchentablecoders.github.com
 ga: UA-XXXXX-X              #Google Analytics ID
 sitemap: GOOGLEWEBMASTER    #Google webmaster verification code
-# END
-# CHOOSE YOUR PREFERENCE
+
 highlighter: pygments
 markdown:    kramdown
 permalink:   pretty
-# END
+
+# Jekyll won't publish any kind of page type if it has a `date` field set in
+# the future by defualt. Because most of our workshops are going to be set
+# in the future, we can force Jekyll's hand:
+future: true
+
+collections:
+  workshops:
+    output: true
+    permalink: /workshops/:path/
+
+defaults:
+  - scope:
+      type: workshops
+    values:
+      layout: main
+
 exclude:
   - LICENSE
   - README.markdown
