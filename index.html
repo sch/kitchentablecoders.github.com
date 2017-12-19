@@ -4,24 +4,25 @@ title: Kitchen Table Coders
 description: Kitchen Table Coders hosts intermediate and advanced workshops teaching programming concepts.
 ---
 
-<div class="navigation vcard" vocab="http://schema.org/" typeof="organization">
-  <div class="flex-1">
-    <div class="navigation-title" property="name">Kitchen Table Coders</div>
-    <a class="navigation-link" href="/workshops">Workshops</a>
-    <a class="navigation-link" href="/members">Members</a>
-    <a class="navigation-link" href="/about">About</a>
-  </div>
+<!-- TODO: Remove this if we remove the sidebar navigation -->
+<!-- <div class="navigation vcard" vocab="http://schema.org/" typeof="organization"> -->
+<!--   <div class="flex-1"> -->
+<!--     <div class="navigation-title" property="name">Kitchen Table Coders</div> -->
+<!--     <a class="navigation-link" href="/workshops">Workshops</a> -->
+<!--     <a class="navigation-link" href="/members">Members</a> -->
+<!--     <a class="navigation-link" href="/about">About</a> -->
+<!--   </div> -->
 
-  <address property="address" typeof="PostalAddress">
-    <div property="streetAddress">274 Morgan Avenue<br>4th Floor</div>
-    <div><span property="addressLocality">Brooklyn</span> <abbr title="New York" property="addressRegion">NY</abbr> <span property="postalCode">11211</span></div>
-  </address>
-</div>
+<!--   <address property="address" typeof="PostalAddress"> -->
+<!--     <div property="streetAddress">274 Morgan Avenue<br>4th Floor</div> -->
+<!--     <div><span property="addressLocality">Brooklyn</span> <abbr title="New York" property="addressRegion">NY</abbr> <span property="postalCode">11211</span></div> -->
+<!--   </address> -->
+<!-- </div> -->
 
 <div class="main">
   <div class="container">
-    <p>Kitchen Table Coders is a collective of creative technologists. We host small workshops focusing on intermediate to advanced topics in programming.</p>
-    <p>Here's the next workshop we're doing:</p>
+    <h6 class="centering">Kitchen Table Coders presents</h6>
+    <h1 class="jumbo">AI Atelier</h1>
     {% for workshop in site.workshops %}
       <section class="card">
         <a class="button signup-button" href="#">Sign Up</a>
@@ -37,7 +38,8 @@ description: Kitchen Table Coders hosts intermediate and advanced workshops teac
         {% endcase %}
         {{ workshop.content | markdownify }}
       </section>
-    {% endfor %}
+      {% endfor %}
+      <!-- TODO: Put this in the footer or another page -->
+      <p><strong>Kitchen Table Coders</strong> is a collective of creative technologists. We host small workshops focusing on intermediate to advanced topics in programming.</p>
   </div>
 </div>
-
