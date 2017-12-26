@@ -1,6 +1,4 @@
-<p align="center"><strong>Kitchen Table Coders Website</strong></p>
-
-<p align="center"><img src="https://user-images.githubusercontent.com/109822/33112387-f7ae1ae8-cf20-11e7-9d98-4cdff397e364.png" /></p>
+# Kitchen Table Coders' Workshop
 
 ## Introduction
 
