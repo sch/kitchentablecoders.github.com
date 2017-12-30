@@ -1,108 +1,30 @@
-{% include system_head.html %}
-<body class="{{ page.layout }}">
-    <div id="page">
-        {% include header.html %}
-        <div id="main" role="main">
-            <div class="main_inner">
-                <div class="article_inner">
-                    <div id="nav">
-                        <ul>
-                            <li><a href="/about/">About</a></li>
-                            <li class="selected"><a href="/">Courses</a></li>
-                            <li><a href="/events/">Events</a></li>
-                            <li><a href="mailto:hello@kitchentablecoders.com">Contact</a></li>
-                        </ul>
-                    </div>
-                    <header class="hd_article" style="margin-left:-40px">
-                        {% if page.upcoming %}
-                        <h1 class="isupcoming">
-                            An upcoming workshop
-                        </h1>
-                        {% else %}
-                        <h1 class="isupcoming">
-                            A previous workshop
-                        </h1>
-                        {% endif %}
-                        <div id="back">
-                            <a href="/">back</a>
-                        </div>
-                    </header>
-                    <article class="the_article" style="margin-left:-40px;">
-                        <div class="article_inner" style="padding-right: 20px;">
-                            <div class="leftcol" style="width: 380px;">
-                                <h1>{{ page.title }}</h1>
-                                
-                                {% if page.instructor %}
-                                <div id="class-instructor">
-                                with {{ page.instructor }}
-                                </div>
-                                {% endif %}
+---
+layout: default
+---
+<article {% if page.feature-img %}class="feature-image"{% endif %}>
+  <header id="main" style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
+    <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
+    <p class="meta">
+    {{ page.date | date: "%B %-d, %Y" }}
+    {% if page.author %} - {{ page.author }}{% endif %}
+    </p>
+  </header>
+  <section class="post-content">{{ content }}</section>
 
-                                <div class="content">{{ content }}</div>
-                            </div>
-                            <div class="rightcol" style="width: 120px;">
-                                <div class="meta" style="font-size: 13px;">
-                         
-                                    {% if page.upcoming %}
-                                    <div>
-                                        <a href="{{page.registration_url}}" style="cursor:pointer;">
-                                            <button id="register" style="cursor:pointer">Register</button>
-                                        </a>
-                                    </div>
-                                    <div id="class-date">
-                                        <date title="{{ page.date | date_to_xmlschema }}">
-                                            <span class="day">{{ page.class_date | date: '%d' }}</span>
-                                            <span class="month"><abbr>{{ page.class_date | date: '%b' }}</abbr></span>
-                                            <span class="year">{{ page.class_date | date: '%Y' }}</span>
-                                            <div>
-                                                <span class="start">{{ page.start }}</span>-<span class="start">{{ page.end }}</span>
-                                            </div>
-                                        </date>
-                                    </div>
-                                    <div>
-                                        {{ page.location }}
-                                    </div>
-                              
-                                    
-                                    <div id="fee-list">
-                                        {% for fee in page.fee_list %}
-                                        <div>{{ fee[0] }} - {{ fee[1] }}</div>
-                                        {% endfor %}
-                                    </div>
-                                    <div id="corporate">
-                                        Please <a id="corporate-contact" href="mailto:hello@kitchentablecoders.com?subject=Corporate account inquiry">contact us</a> for corporate accounts.
-                                    </div>
-                                    {% else %}
-                                    <a href="mailto:hello@kitchentablecoders.com?subject=I'd like to take {{ page.title }}">
-                                        <button id="register" style="font-size: 12px; padding: 4px 8px; text-transform:none; cursor:pointer">Request this<br/>class again</button>
-                                    </a>
-                                    {% endif %}
+   <!-- Tag list -->
+  {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
+  {% include tags_list.html tags=tag_list %}
 
-                                </div>
-                            </div>
-                        </div>
-                        <div id="ask">
-                            <a id="ask-anything" href="mailto:hello@kitchentablecoders.com?subject=Question about the {{ page.title }} class">Ask us anything about this class</a>
-                            <div class="buttons"></div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </div><!-- id="main" -->
-        {% if false %}
-        <nav class="pagenation">
-           <ul>
-               {% if page.previous %}
-               <li class="before left"><a rel="prev" href="{{ page.previous.url }}" class="btn" title="View {{ page.previous.title }}">Previous</a></li>
-               {% endif %}
-               {% if page.next %}
-               <li class="next right"><a rel="next" href="{{ page.next.url }}" class="btn" title="View {{ page.next.title }}">Next</a></li>
-               {% endif %}
-           </ul>
-        </nav>
-        {% endif %}
-        {% include footer.html %}
-    </div><!-- id="page" -->
-    {% include system_foot.html %}
-</body>
-</html>
+</article>
+
+<!-- Disqus -->
+{% if site.theme_settings.disqus_shortname %}
+<div class="comments">
+  {% include disqus.html %}
+</div>
+{% endif %}
+
+<!-- Post navigation -->
+{% if site.theme_settings.post_navigation %}
+  {% include post_nav.html %}
+{% endif %}

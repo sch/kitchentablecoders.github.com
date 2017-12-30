@@ -1,8 +1,11 @@
-<footer id="foot">
-	<div id="ktc-est">
-        ~ Est. 2011 Brooklyn NY 11211 ~
-    </div>
-    <span>Copyright 2011 Kitchen Table Coders
-    </br>
-    Logo designed by the good folks at <a href="http://ocupop.com">Ocupop</a></span>    
+{% if site.theme_settings.footer_text %}
+<footer class="site-footer">
+    <p class="text">{{ site.theme_settings.footer_text }}</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                {% include icons.html %}
+                </ul>
+            </div>
 </footer>
+{% endif %}

@@ -1,180 +1,40 @@
 ---
 ---
+@import "type-on-strap";
 
-$system-fonts: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+// ./Type-on-Strap/_sass/base/_variables.scss:39:$header-desc-background-color: #507492;
+// ./_sass/base/_variables.scss:39:$header-desc-background-color: #507492;
 
-$shelf-breakpoint: 900px;
-$shelf-width: 18rem;
+.call-out {
+    @extend %padding-regular;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #EEE;
+    font-size: 1.2em;
+    text-align: center;
+    color: $header-desc-text-color;
+    background-repeat: no-repeat;
+    background-size: $feature-image-size;
 
-$text-size-breakpoint: 600px;
+    /* --- Responsive --- */
+    @media screen and (max-width: 850px) {
+        background-size: 100% auto;
+    }
 
-$color-accent: #338AF6;
+    //For white images
+    p,
+    a,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        @extend .header-txt-shadow;
+    }
 
-
-h1.jumbo { font-size: 4em;
-           text-align: center;}
-h6.centering { text-align: center;}
-
-body {
-  background-color: #eee;
-  color: #333;
-  background-image: url("../img/linked-list.png");
-  background-position: left 10px bottom 10px;
-  background-repeat: no-repeat;
-  margin: 0;
-  font-family: $system-fonts;
-
-  @media screen and (min-width: $text-size-breakpoint) {
-    font-size: 110%;
-  }
-
-  @media screen and (min-width: $shelf-breakpoint) {
-    margin-left: $shelf-width;
-  }
-}
-
-.flex-1 {
-  flex: 1;
-}
-
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  background-color: #222;
-  color: white;
-  padding: 20px;
-  overflow: auto;
-
-  address {
-    font-style: normal;
-    color: #999;
-    margin: 40px 0 0;
-  }
-
-  @media screen and (min-width: $shelf-breakpoint) {
-    flex-direction: column;
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: $shelf-width;
-  }
-
-  @media screen and (min-width: $text-size-breakpoint) {
-    padding: 40px;
-  }
-}
-
-.navigation-title {
-  margin-bottom: 40px;
-}
-
-.navigation-link {
-  display: block;
-  color: #AAA;
-  text-decoration: underline;
-  padding: 0.25em 0;
-
-  &:hover {
-    color: inherit;
-  }
-}
-
-.main {
-  flex: 1;
-  padding: 20px;
-
-  a {
-    color: $color-accent;
-    text-decoration: underline;
-  }
-
-  p {
-    line-height: 1.6;
-  }
-
-  p:first-of-type {
-    margin-top: 0;
-  }
-
-  @media screen and (min-width: $text-size-breakpoint) {
-    padding: 40px;
-  }
-}
-
-.container {
-  max-width: 36em;
-  margin: 0 auto;
-}
-
-.card {
-  background-color: rgba(255, 255, 255, 0.8);
-  margin: 40px 0;
-  padding: 20px;
-  border-radius: 0.1em;
-  box-shadow: 0 1px 5px rgba(1, 1, 1, 0.1);
-
-  h1 {
-    margin-top: 0;
-    font-weight: 700;
-  }
-
-  @media screen and (min-width: $text-size-breakpoint) {
-    padding: 40px;
-  }
-}
-
-.byline {
-  color: #999;
-  margin-top: 1em;
-  border-top: dotted 1px #333;
-  padding-top: 0.618em;
-  padding-bottom: 0.618em;
-  border-bottom: dotted 1px #333;
-  margin-bottom: 1em;
-}
-
-.button {
-  background-color: $color-accent;
-  color: #FFF !important;
-  border-radius: 0.3em;
-  border-color: #3385AD;
-  border-bottom-color: #1472A1;
-  background-repeat: no-repeat;
-  border-width: 1px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-  display: inline-block;
-  line-height: 1.33333333333333333333;
-  text-align: center;
-  text-decoration: none !important;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.15);
-  transition: background-color 0.2s, box-shadow 0.2s ease, text-shadow 0.2s;
-  padding: 0.4em 0.6em 0.4em 0.7em;
-  position: relative;
-  overflow: hidden;
-
-  &:before {
-    border-color: rgba(255, 255, 255, 0.3);
-    border-radius: 3px 3px 0 0;
-    border-width: 1px 1px 0;
-    top: 0;
-    height: 2px;
-  }
-
-  &:before,
-  &:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0
-  }
-
-  &:hover {
-    text-transform: none !important;
-  }
-}
-
-.signup-button {
-  float: right;
+    p:last-child {
+        margin-bottom: 0;
+    }
 }
