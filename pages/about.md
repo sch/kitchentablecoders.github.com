@@ -6,9 +6,58 @@ feature-img: "assets/img/pexels/circuit.jpeg"
 tags: [About, Test]
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+<div id="nav">
+     <ul>
+         <li class="selected"><a href="/about/">About</a></li>
+         <li><a href="/courses/">Courses</a></li>
+         <li><a href="/events/">Events</a></li>
+         <li><a href="mailto:hello@kitchentablecoders.com">Contact</a></li>
+     </ul>
+</div>
 
-Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+<div id="cols">
+    <div id="left">
+        <p>
+            <font>Table:</font>Every week we host a workshop on a topic we're
+            passionate about.
+        </p>
+        <p>
+            We keep it down to 5 people because that's how many fit around our
+            kitchen table.
+        </p>
+        <p>
+            There's no projector. We just hang out for the day, and enjoy a
+            collaborative learning experience.
+        </p>
+        <!--
+        <a href="#">Read more</a>
+        -->
+    </div>
+    <div id="right">
+        <p>
+            <font>Chefs:</font> Hi, we're
+            <a href="https://twitter.com/ra">@ra</a>,
+            <a href="https://twitter.com/swannodette">@swannodette</a>,
+            <a href="https://twitter.com/pitaru">@pitaru</a>,
+            <a href="https://twitter.com/timsgardner">@timsgardner</a>,
+            <a href="https://twitter.com/kovasb">@kovasb</a>,
+            and <a href="https://twitter.com/jefftimesten">@jefftimesten</a>.
+            We all design software for a living and share a studio.
+        </p>
+        <p>
+            We're ever curious about new and old languages, as well as the
+            people who shaped them.
+        </p>
+        <p>
+            Sometimes we teach graduate courses, so we figured why not do
+            informal workshops at our studio with like-minded folk.
+        </p>
+        <!--
+        <a href="#">Read more</a>
+        -->
+    </div>
+</div>
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
- 
+<div id="studio-img-container" style="text-align: center; padding-left: 35px;">
+    <img src="/img/studio.jpg" width="515"></img>
+</div>

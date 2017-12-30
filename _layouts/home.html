@@ -10,50 +10,73 @@ layout: default
   </div>
   {% endif %}
 
-  <div class="posts">
-    {% for post in paginator.posts %}
-    <div class="post-teaser">
-      {% if post.thumbnail %}
-      <div class="post-img">
-         <img src="{{ site.baseurl }}/{{ post.thumbnail }}">
-      </div>
-      {% endif %}
+<center>
+<h2>Kitchen Table Coders Presents</h2>
+<h1>AI Atelier</h1>
+</center>
+
+<div class="posts">
+      <div class="post-teaser">
       <span>
           <header>
-            <h1>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.title }}
-              </a>
+            <h1>Machine Learning
             </h1>
             <p class="meta">
-              {{ post.date | date: "%B %-d, %Y" }}
             </p>
           </header>
           <div class="excerpt">
-            {{ post.content | strip_html | truncate: "250" }}
-            <!--<a class="button" href="{{ post.url | prepend: site.baseurl }}">
-              {{ site.theme_settings.str_continue_reading }}
-            </a>-->
+AI Atelier is a new workshop series for practicing software engineers with a focus on deep learning techniques. We believe that new machine learning methods will become an essential skill for the software engineer and this series is designed to give both practical foundations and hands on engineering experience. We deeply believe that computational thinking is a fundamentally creative endeavor and the series emphasizes intuition and innovation as much a technical capability. As the workshop series name implies our classes are crafted to give you a framework for building creative solutions to challenging problems. We have years of education experience from New York University, Parsons (The New School), Stanford University, (Columbia University) as well as years of training experience through Cognitect, and Kitchen Table Coders. This training initiative is advised by engineers currently working at Google Creative Labs, Twitter, and Cognitect.
           </div>
       </span>
-    </div>
-    {% endfor %}
+      </div>
   </div>
 
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      <i class="fa fa-chevron-left"></i>
-      {{ site.theme_settings.str_previous_page }}
-    </a>
-    {% endif %}
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      {{ site.theme_settings.str_next_page }}
-      <i class="fa fa-chevron-right"></i>
-    </a>
-    {% endif %}
-  </div>
-  {% endif %}
+  <hr />
+
+  <!-- <div class="posts"> -->
+  <!--   {% for post in paginator.posts %} -->
+  <!--   <div class="post-teaser"> -->
+  <!--     {% if post.thumbnail %} -->
+  <!--     <div class="post-img"> -->
+  <!--        <img src="{{ site.baseurl }}/{{ post.thumbnail }}"> -->
+  <!--     </div> -->
+  <!--     {% endif %} -->
+  <!--     <span> -->
+  <!--         <header> -->
+  <!--           <h1> -->
+  <!--             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"> -->
+  <!--               {{ post.title }} -->
+  <!--             </a> -->
+  <!--           </h1> -->
+  <!--           <p class="meta"> -->
+  <!--             {{ post.date | date: "%B %-d, %Y" }} -->
+  <!--           </p> -->
+  <!--         </header> -->
+  <!--         <div class="excerpt"> -->
+  <!--           {{ post.content | strip_html | truncate: "250" }} -->
+  <!--           <\!--<a class="button" href="{{ post.url | prepend: site.baseurl }}"> -->
+  <!--             {{ site.theme_settings.str_continue_reading }} -->
+  <!--           </a>-\-> -->
+  <!--         </div> -->
+  <!--     </span> -->
+  <!--   </div> -->
+  <!--   {% endfor %} -->
+  <!-- </div> -->
+
+  <!-- {% if paginator.total_pages > 1 %} -->
+  <!-- <div class="pagination"> -->
+  <!--   {% if paginator.previous_page %} -->
+  <!--   <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" > -->
+  <!--     <i class="fa fa-chevron-left"></i> -->
+  <!--     {{ site.theme_settings.str_previous_page }} -->
+  <!--   </a> -->
+  <!--   {% endif %} -->
+  <!--   {% if paginator.next_page %} -->
+  <!--   <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" > -->
+  <!--     {{ site.theme_settings.str_next_page }} -->
+  <!--     <i class="fa fa-chevron-right"></i> -->
+  <!--   </a> -->
+  <!--   {% endif %} -->
+  <!-- </div> -->
+  <!-- {% endif %} -->
 </div>
