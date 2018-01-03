@@ -2,10 +2,8 @@
 ---
 @import "type-on-strap";
 
-// ./Type-on-Strap/_sass/base/_variables.scss:39:$header-desc-background-color: #507492;
-// ./_sass/base/_variables.scss:39:$header-desc-background-color: #507492;
-
 $header-link-color: #fff;
+$header-desc-background-color: #507492;
 
 // Brand colours
 $brand-color: #2d8ca9;
@@ -17,22 +15,53 @@ $link-color: #507492; // #1ABC9C;
 $selection-color: #D4D4D4; // visible when highlighting text
 $blockquote-color: #EEF7FA; // $background-color;
 
-.posts {
-    .post-teaser > span {
-        display: inline-block;
-        background-color: white;
-        padding: 20px;
-    }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #212529;
+    background-color: #eee;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #212529;
-  background-color: #eee;
+.title-and-button {
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
 }
 
 #main {
     border-bottom: 2px solid $brand-color;
+}
+
+.posts {
+    .post-teaser {
+        padding-top: 0px;
+    }
+
+    .post-teaser > span {
+        display: inline-block;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: 40px 0;
+        padding: 20px;
+        border-radius: 0.1em;
+        box-shadow: 0 1px 5px rgba(1, 1, 1, 0.1);
+
+        h1 {
+            margin-top: 0;
+            font-weight: 700;
+            font-size: 1em;
+            text-align: left;
+            flex: 1 1 auto;
+        }
+
+        @media screen and (min-width: $sm-break) {
+            padding: 40px;
+        }
+    }
 }
 
 .site-header {
@@ -44,7 +73,7 @@ body {
     }
 }
 
-h1.sub-header {
+h2.sub-header {
     padding-top: 20px;
     margin-bottom: 0px;
     font-weight: bold;
@@ -52,9 +81,11 @@ h1.sub-header {
     line-height: 1.5;
 }
 
-h1.sub-header + h1 {
+h2.sub-header + h1 {
     margin-top: 10px;
     margin-bottom: 0px;
+    color: #333;
+    font-size: 4em;
 }
 
 .call-out {
@@ -66,4 +97,61 @@ h1.sub-header + h1 {
     p:last-child {
         margin-bottom: 0;
     }
+}
+
+
+.byline {
+  color: #999;
+  margin-top: 1em;
+  border-top: dotted 1px #333;
+  padding-top: 0.618em;
+  padding-bottom: 0.618em;
+  border-bottom: dotted 1px #333;
+  margin-bottom: 1em;
+}
+
+.button {
+  background-color: $brand-color;
+  color: #FFF !important;
+  border-radius: 0.3em;
+  border-color: #3385AD;
+  border-bottom-color: #1472A1;
+  background-repeat: no-repeat;
+  border-width: 1px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.33333333333333333333;
+  text-align: center;
+  text-decoration: none !important;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color 0.2s, box-shadow 0.2s ease, text-shadow 0.2s;
+  padding: 0.4em 0.6em 0.4em 0.7em;
+  margin: 0px;
+  position: relative;
+  overflow: hidden;
+
+  &:before {
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px 3px 0 0;
+    border-width: 1px 1px 0;
+    top: 0;
+    height: 2px;
+  }
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0
+  }
+
+  &:hover {
+    text-transform: none !important;
+  }
+}
+
+.signup-button {
+    text-align: right;
 }
