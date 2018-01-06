@@ -1,17 +1,23 @@
 ---
-layout: post
-category: class
-style: text
 title: Kitchen Table Go
-class_date: 2012-02-02
+date: 2012-02-02 00:00:00 Z
+categories:
+- class
+layout: post
+style: text
+class_date: 2012-02-02 00:00:00 Z
 upcoming: false
 start: 7pm
 end: 10pm
 location: Brooklyn, NY
 registration_url: http://kitchentable23.eventbrite.com/
-fee_list: [["Students", "$0"],
-           ["Freelancers", "$0"],
-           ["Everyone Else", "$0"]]
+fee_list:
+- - Students
+  - "$0"
+- - Freelancers
+  - "$0"
+- - Everyone Else
+  - "$0"
 summary: 
 ---
 

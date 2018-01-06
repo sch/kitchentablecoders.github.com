@@ -1,9 +1,9 @@
 ---
 title: Machine Learning
-date: 2017-12-15
+date: 2017-12-15 00:00:00 Z
 instructors:
-  - Kovas Boguta
-  - Evan Casey
+- Kovas Boguta
+- Evan Casey
 ---
 
 Machine learning is the science of getting computers to act without being explicitly programmed. In the past decade, machine learning has given us self-driving cars, practical speech recognition, effective web search, and a vastly improved understanding of the human genome.

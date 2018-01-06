@@ -1,35 +1,37 @@
+---
+title: Kitchentablecoders.Github.Com
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  workshops:
+    title: Workshops
+    output: true
+    permalink: "/workshops/:path/"
+defaults:
+- scope:
+    path: ''
+    type: workshops
+  values:
+    layout: main
 sitename: Kitchen Table Coders
 tagline: Workshops on the craft of creative coding in all its forms
-
 url: http://kitchentablecoders.github.com
-ga: UA-XXXXX-X              #Google Analytics ID
-sitemap: GOOGLEWEBMASTER    #Google webmaster verification code
-
+ga: UA-XXXXX-X
+sitemap: GOOGLEWEBMASTER
 highlighter: pygments
-markdown:    kramdown
-permalink:   pretty
-
-# Jekyll won't publish any kind of page type if it has a `date` field set in
-# the future by defualt. Because most of our workshops are going to be set
-# in the future, we can force Jekyll's hand:
+markdown: kramdown
+permalink: pretty
 future: true
-
-collections:
-  workshops:
-    output: true
-    permalink: /workshops/:path/
-
-defaults:
-  - scope:
-      type: workshops
-    values:
-      layout: main
-
 exclude:
-  - LICENSE
-  - README.markdown
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - vendor/
-  - bin/
+- LICENSE
+- README.markdown
+- Rakefile
+- Gemfile
+- Gemfile.lock
+- vendor/
+- bin/
