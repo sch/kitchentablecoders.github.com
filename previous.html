@@ -1,52 +1,45 @@
 ---
-layout: page
+layout: default
 title: Previous Workshops
 permalink: /previous/
 feature-img: "assets/img/pexels/circuit.jpeg"
 tags: [Workshops]
-hide: true
+hide: false
 ---
-<div id="nav">
-     <ul>
-         <li><a href="/about/">About</a></li>
-         <li class="selected"><a href="/">Courses</a></li>
-         <li><a href="/events/">Events</a></li>
-         <li><a href="mailto:kitchentablecoders@gmail.com">Contact</a></li>
-     </ul>
-</div>
-<header class="hd_article" style="margin-left:-32px;">
-    <h1 class="isupcoming">All previous workshops</h1>
-    <div>See anything you like? Feel free to email us and we'll try to redo it!</div>
-    <div id="back">
-        <a href="/">back</a>
+
+<center>
+<h1>All previous workshops</h1>
+</center>
+
+<div class="posts">
+  {% for post in site.posts %}
+  {% if post.upcoming == false and post.categories contains 'class' %}
+  <div class="post-teaser">
+    {% if post.thumbnail %}
+    <div class="post-img">
+       <img src="{{ site.baseurl }}/{{ post.thumbnail }}">
     </div>
-</header>
-<ul class="posts">
-    {% for post in site.posts %}
-    {% if post.upcoming == false and post.categories contains 'class' %}
-    <li>
-        <div>
-            <a href="{{ post.url }}" class="h3">{{ post.title }}</a>
-        </div>
-    <small>
-        <date>{{ post.date | date_to_string }}</date>
-    </small>
-    </li>
     {% endif %}
-    {% endfor %}
-</ul>
-</nav>
-<div class="border"></div>
-<div id="upcoming" class="post-link">
-    <a href="/">See our upcoming workshops</a>
-    <div class="caption">You can also ask us do redo them, and we'll do our best!</div>
-</div>
-<div id="suggest" class="post-link">
-    <div class="linkimg">
-        <div class="link">
-            <a href="mailto:kitchentablecoders@gmail.com?subject=Suggestion for a class">Suggest a new workshop</a>
+
+    <span>
+        <header>
+          <h1>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+              {{ post.title }}
+            </a>
+          </h1>
+          <p class="meta">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </p>
+        </header>
+        <div class="excerpt">
+          {{ post.content | strip_html | truncate: "250" }}
+          <a class="button" href="{{ post.url | prepend: site.baseurl }}">
+            {{ site.theme_settings.str_continue_reading }}
+          </a>
         </div>
-        <img src="/img/mail.jpg"></img>
-    </div>
-    <div class="caption">Let us know what you'd like to learn. We often pick up on great suggestions</div>
+    </span>
+  </div>
+  {% endif %}
+  {% endfor %}
 </div>

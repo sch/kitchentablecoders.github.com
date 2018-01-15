@@ -71,7 +71,7 @@ theme_settings:
   post_navigation: false
 
 # PAGINATION
-paginate: 70
+paginate: 5
 paginate_path: "blog/page:num"
 
 # PORTFOLIO
