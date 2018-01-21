@@ -38,15 +38,15 @@ body {
 }
 
 .posts {
-    .post-teaser {
-        padding-top: 0px;
-    }
+
+    .post-teaser .post-img {
+            vertical-align: middle;
+            border-radius: 25px 25px 0px 0px;
+        }
 
     .post-teaser > span {
         display: inline-block;
         background-color: rgba(255, 255, 255, 0.8);
-        margin: 40px 0;
-        padding: 20px;
         border-radius: 0.1em;
         box-shadow: 0 1px 5px rgba(1, 1, 1, 0.1);
 
@@ -154,4 +154,8 @@ h2.sub-header + h1 {
 
 .signup-button {
     text-align: right;
+}
+
+.excerpt-footer {
+    padding-top: 20px;
 }
