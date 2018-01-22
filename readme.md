@@ -4,7 +4,10 @@
 
 This repo holds the code for Kitchen Table Coder's **AI Atelier** website. The site is written in Jekyll and hosted on Github Pages.
 
-To view the site locally, first install the Ruby development tools and Jekyll. Run `bundle exec jekyll server` and navigate to [localhost:4000](http://127.0.0.1:4000) to view the site.
+You'll need [ruby](https://github.com/postmodern/chruby) configured on your
+system to build the site locally. Run `bin/server` to install dependencies and
+start an incremental build server. Navigate to
+[localhost:4000](http://127.0.0.1:4000) to view the site.
 
 ## CSS
 
