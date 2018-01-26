@@ -3,61 +3,20 @@ layout: page
 title: About
 permalink: /about/
 feature-img: "assets/img/pexels/circuit.jpeg"
-tags: [About, Test]
+tags:
 ---
 
-<div id="nav">
-     <ul>
-         <li class="selected"><a href="/about/">About</a></li>
-         <li><a href="/courses/">Courses</a></li>
-         <li><a href="/events/">Events</a></li>
-         <li><a href="mailto:hello@kitchentablecoders.com">Contact</a></li>
-     </ul>
-</div>
-
-<div id="cols">
-    <div id="left">
-        <p>
-            <font>Table:</font>Every week we host a workshop on a topic we're
-            passionate about.
-        </p>
-        <p>
-            We keep it down to 5 people because that's how many fit around our
-            kitchen table.
-        </p>
-        <p>
-            There's no projector. We just hang out for the day, and enjoy a
-            collaborative learning experience.
-        </p>
-        <!--
-        <a href="#">Read more</a>
-        -->
-    </div>
-    <div id="right">
-        <p>
-            <font>Chefs:</font> Hi, we're
-            <a href="https://twitter.com/ra">@ra</a>,
-            <a href="https://twitter.com/swannodette">@swannodette</a>,
-            <a href="https://twitter.com/pitaru">@pitaru</a>,
-            <a href="https://twitter.com/timsgardner">@timsgardner</a>,
-            <a href="https://twitter.com/kovasb">@kovasb</a>,
-            and <a href="https://twitter.com/jefftimesten">@jefftimesten</a>.
-            We all design software for a living and share a studio.
-        </p>
-        <p>
-            We're ever curious about new and old languages, as well as the
-            people who shaped them.
-        </p>
-        <p>
-            Sometimes we teach graduate courses, so we figured why not do
-            informal workshops at our studio with like-minded folk.
-        </p>
-        <!--
-        <a href="#">Read more</a>
-        -->
-    </div>
-</div>
-
-<div id="studio-img-container" style="text-align: center; padding-left: 35px;">
-    <img src="/img/studio.jpg" width="515"></img>
+<div>
+    <h2>Who Are We?</h2>
+    <h3>Amit Pitaru</h3>
+    <p>
+    </p>
+    <h3>David Nolen</h3>
+    <p></p>
+    <h3>Kovas Boguta</h3>
+    <p>
+    </p>
+    <h3>Evan Casey</h3>
+    <p>
+    </p>
 </div>
