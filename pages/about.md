@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/pexels/circuit.jpeg"
+feature-img: "assets/img/linked-list.png"
 tags:
 ---
 
@@ -11,7 +11,7 @@ tags:
     <h3>Amit Pitaru</h3>
     <p>
     Amit is a coder and designer. Formerly a professional musician, his work to date spans across experimental art, research, education, and entrepreneurial projects. A recurring theme in Amit’s work is the extreme attention to user-experience, specifically how technology can promote (or destroy) curiosity, literacy, and creativity.
-    </p> 
+    </p>
     <p>
     As an artist, Amit develops novel instruments and methods for making music, animation, and dance. His work has been exhibited at the London Design Museum, Paris Pompidou Center, Lincoln Center, Israel National Museum, Sundance Film festival, Seoul Metropolitan Museum of Art, and ICC Museum in Tokyo.
     </p>
@@ -24,7 +24,7 @@ tags:
     </p>
     <h3>Kovas Boguta</h3>
     <p>
-    Kovas Boguta has spent 15 years in scientific computing, data infrastructure, and machine learning roles. At Wolfram Research he helped build Mathematica and Wolfram Alpha, and served as instructor at the Wolfram Science summer school. At Weebly, Kovas built out the Hadoop-based analytics infrastructure. At Twitter, Kovas helped develop the internal deep learning platform, and is now applying ML to recommendations problems. His favorite cellular automaton is Rule 110. 
+    Kovas Boguta has spent 15 years in scientific computing, data infrastructure, and machine learning roles. At Wolfram Research he helped build Mathematica and Wolfram Alpha, and served as instructor at the Wolfram Science summer school. At Weebly, Kovas built out the Hadoop-based analytics infrastructure. At Twitter, Kovas helped develop the internal deep learning platform, and is now applying ML to recommendations problems. His favorite cellular automaton is Rule 110.
     </p>
     <h3>Evan Casey</h3>
     <p>

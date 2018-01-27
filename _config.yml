@@ -6,8 +6,8 @@ url: "http://kitchentablecoders.com/"
 theme_settings:
   # Meta
   title: AI Atelier
-  avatar: assets/img/ktc-logo.png
-  favicon: assets/favicon.ico
+  avatar: assets/img/neuron-white.png
+  favicon: favicon.ico
   gravatar: # Email MD5 hash
   description: "Workshops on the craft of creative coding in all its forms" # used by search engines
 
@@ -15,7 +15,7 @@ theme_settings:
   header_text: > #two or three lines to describe your site
   header_text_feature_image: none # assets/img/linked-list.png
   footer_text: >
-   <a href="http://kitchentablecoders.com/">Kitchen Table Coders</a> is a collective of creative technologists. We host small workshops focusing on intermediate to advanced topics in programming.
+   <img src="assets/img/ktc-logo.png" alt="ktc logo" /><br /><a href="http://kitchentablecoders.com/">Kitchen Table Coders</a> is a collective of creative technologists. We host small workshops focusing on intermediate to advanced topics in programming.
 
   # Icons
   rss: true
