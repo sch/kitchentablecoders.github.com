@@ -13,8 +13,7 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <h1>.</h1>
-  header_text_feature_image: assets/img/linked-list.png
+  header_text_feature_image: none # assets/img/linked-list.png
   footer_text: >
    <a href="http://kitchentablecoders.com/">Kitchen Table Coders</a> is a collective of creative technologists. We host small workshops focusing on intermediate to advanced topics in programming.
 
