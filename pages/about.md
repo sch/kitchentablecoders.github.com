@@ -9,6 +9,7 @@ tags:
 <div>
     <h2>Who Are We?</h2>
     <h3>Amit Pitaru</h3>
+    <img src="{{ site.baseurl }}/assets/img/bios/amit_pitaru.jpg" />
     <p>
     Amit is a coder and designer. Formerly a professional musician, his work to date spans across experimental art, research, education, and entrepreneurial projects. A recurring theme in Amit’s work is the extreme attention to user-experience, specifically how technology can promote (or destroy) curiosity, literacy, and creativity.
     </p>
