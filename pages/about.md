@@ -6,10 +6,10 @@ feature-img: "assets/img/linked-list.png"
 tags:
 ---
 
-<div>
+<div id="about-us">
     <h2>Who Are We?</h2>
     <h3>Amit Pitaru</h3>
-    <img src="{{ site.baseurl }}/assets/img/bios/amit_pitaru.jpg" />
+    <img width="200" src="{{ site.baseurl }}/assets/img/bios/amit_pitaru.jpg" />
     <p>
     Amit is a coder and designer. Formerly a professional musician, his work to date
 spans across experimental art, research, education, and entrepreneurial
@@ -32,7 +32,7 @@ intimate workshops/salons for people who are eager to expand their love for
 coding.
     </p>
     <h3>David Nolen</h3>
-    <img src="{{ site.baseurl }}/assets/img/bios/david.png" />
+    <img width="200" src="{{ site.baseurl }}/assets/img/bios/david.png" />
     <p>
     David Nolen is a software engineer with a background in programming languages,
 compilers, databases, and expert systems. He has taught at New York University,
