@@ -32,7 +32,7 @@ intimate workshops/salons for people who are eager to expand their love for
 coding.
     </p>
     <h3>David Nolen</h3>
-    <img width="200" src="{{ site.baseurl }}/assets/img/bios/david.png" />
+    <img width="200" src="{{ site.baseurl }}/assets/img/bios/david_nolen.png" />
     <p>
     David Nolen is a software engineer with a background in programming languages,
 compilers, databases, and expert systems. He has taught at New York University,
@@ -53,6 +53,7 @@ Kovas helped develop the internal deep learning platform, and is now applying ML
 to recommendations problems. His favorite cellular automaton is Rule 110.
     </p>
     <h3>Evan Casey</h3>
+    <img width="200" src="{{ site.baseurl }}/assets/img/bios/evan_casey.jpg" />
     <p>
     Evan Casey is an engineer and researcher. He currently works on deep
 reinforcement learning for robotics at Cogitai. Previously he worked in the
