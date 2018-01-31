@@ -3,38 +3,19 @@ layout: default
 ---
 
 <div class="home">
-  {% if site.theme_settings.header_text %}
-  <div id="main" class="call-out"
-  style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
-    {{ site.theme_settings.header_text }}
-  </div>
-  {% endif %}
 
-<div class="main">
-  <div class="container">
-    {% for workshop in site.workshops %}
-      <section class="card">
-        <a class="button signup-button" href="#">Sign Up</a>
-        <h1>{{ workshop.title }}</h1>
-        {% case workshop.instructors.size %}
-        {% when 1 %}
-          <div class="byline">with <a href="#">{{ workshop.instructors.first }}</a></div>
-        {% when 2 %}
-          <div class="byline">with <a href="#">{{ workshop.instructors.first }}</a> and <a href="#">{{ workshop.instructors[1] }}</a></div>
-        {% when 3 %}
-          <div class="byline">with <a href="#">{{ workshop.instructors.first }}</a>, <a href="#">{{ workshop.instructors[1] }}</a>, and <a href="#">{{ workshop.instructors[2] }}</a></div>
-        {% else %}
-        {% endcase %}
-        {{ workshop.content | markdownify }}
-      </section>
-      {% endfor %}
-  </div>
-</div>
+  <!-- {% if site.theme_settings.header_text %} -->
+  <!-- <div id="main" class="call-out" -->
+  <!-- style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')"> -->
+  <!--   {{ site.theme_settings.header_text }} -->
+  <!-- </div> -->
+  <!-- {% endif %} -->
 
-<center>
-<h2 class="sub-header">Kitchen Table Coders Presents</h2>
-<h1>AI Atelier</h1>
-</center>
+  <img src="{{ site.baseurl }}/assets/img/linked-list-logo.png" alt="AI Atelier Logo" />
+
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe src="https://player.vimeo.com/video/168568883?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
 
   <div class="posts">
   {% for post in site.posts %}
