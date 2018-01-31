@@ -11,11 +11,12 @@ tags:
     <h3>Amit Pitaru</h3>
     <img width="200" src="{{ site.baseurl }}/assets/img/bios/amit_pitaru.jpg" />
     <p>
-    Amit is a coder and designer. Formerly a professional musician, his work to date
-spans across experimental art, research, education, and entrepreneurial
-projects. A recurring theme in Amit’s work is the extreme attention to
-user-experience, specifically how technology can promote (or destroy) curiosity,
-literacy, and creativity.
+    Amit is a coder and designer. He is currently at Google Creative Lab exploring
+the intersection of AI techniques and creative expression. Formerly a
+professional musician, his work to date spans across experimental art, research,
+education, and entrepreneurial projects. A recurring theme in Amit’s work is the
+extreme attention to user-experience, specifically how technology can promote
+(or destroy) curiosity, literacy, and creativity.
     </p>
     <p>
     As an artist, Amit develops novel instruments and methods for making music,
